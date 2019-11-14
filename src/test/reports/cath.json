@@ -1,0 +1,102 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-11-14T14:58:16.768Z",
+        "before": [
+          {
+            "result": {
+              "duration": 108664401500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUpHomePage()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "User should be able to search a Product",
+        "description": "",
+        "id": "search-a-product;user-should-be-able-to-search-a-product;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 9493677400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19698127000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on the home page",
+            "match": {
+              "location": "ShouldBeAbleToSearchProduct.i_am_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9316200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I search for a product \"product\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"product\"",
+                  "offset": 23
+                }
+              ],
+              "location": "ShouldBeAbleToSearchProduct.i_search_for_a_product(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5871400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should view all the relevant products",
+            "match": {
+              "location": "ShouldBeAbleToSearchProduct.i_should_view_all_the_relevant_products()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Search a Product",
+    "description": "    As a end user\n    I will search for a product\n    I should be able view all the relevant products",
+    "id": "search-a-product",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/resources/ShouldBeAbleToSearchProduct.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
