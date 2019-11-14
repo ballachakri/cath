@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2019-11-14T14:58:16.768Z",
+        "start_timestamp": "2019-11-14T16:24:34.241Z",
         "before": [
           {
             "result": {
-              "duration": 108664401500,
+              "duration": 69534602600,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 9493677400,
+              "duration": 5577341900,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 19698127000,
+              "duration": 10327019500,
               "status": "passed"
             },
             "line": 8,
@@ -47,15 +47,15 @@
           },
           {
             "result": {
-              "duration": 9316200,
+              "duration": 28275486800,
               "status": "passed"
             },
             "line": 9,
-            "name": "I search for a product \"product\"",
+            "name": "I search for a product \"shirt\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"product\"",
+                  "val": "\"shirt\"",
                   "offset": 23
                 }
               ],
@@ -65,7 +65,247 @@
           },
           {
             "result": {
-              "duration": 5871400,
+              "duration": 375138900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should view all the relevant products",
+            "match": {
+              "location": "ShouldBeAbleToSearchProduct.i_should_view_all_the_relevant_products()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-11-14T16:26:28.442Z",
+        "before": [
+          {
+            "result": {
+              "duration": 62681212500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUpHomePage()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "User should be able to search a Product",
+        "description": "",
+        "id": "search-a-product;user-should-be-able-to-search-a-product;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 5742145100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7957639800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on the home page",
+            "match": {
+              "location": "ShouldBeAbleToSearchProduct.i_am_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 28231882800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I search for a product \"jeans\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jeans\"",
+                  "offset": 23
+                }
+              ],
+              "location": "ShouldBeAbleToSearchProduct.i_search_for_a_product(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 595063700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should view all the relevant products",
+            "match": {
+              "location": "ShouldBeAbleToSearchProduct.i_should_view_all_the_relevant_products()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-11-14T16:28:13.665Z",
+        "before": [
+          {
+            "result": {
+              "duration": 85822237800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUpHomePage()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "User should be able to search a Product",
+        "description": "",
+        "id": "search-a-product;user-should-be-able-to-search-a-product;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 14940956300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11690696600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on the home page",
+            "match": {
+              "location": "ShouldBeAbleToSearchProduct.i_am_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 64521222900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I search for a product \"shoe\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"shoe\"",
+                  "offset": 23
+                }
+              ],
+              "location": "ShouldBeAbleToSearchProduct.i_search_for_a_product(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 825340100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should view all the relevant products",
+            "match": {
+              "location": "ShouldBeAbleToSearchProduct.i_should_view_all_the_relevant_products()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-11-14T16:31:11.485Z",
+        "before": [
+          {
+            "result": {
+              "duration": 96260626000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUpHomePage()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "User should be able to search a Product",
+        "description": "",
+        "id": "search-a-product;user-should-be-able-to-search-a-product;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 18491515800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8709424100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on the home page",
+            "match": {
+              "location": "ShouldBeAbleToSearchProduct.i_am_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 29689190900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I search for a product \"bags\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bags\"",
+                  "offset": 23
+                }
+              ],
+              "location": "ShouldBeAbleToSearchProduct.i_search_for_a_product(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15261297400,
               "status": "passed"
             },
             "line": 10,

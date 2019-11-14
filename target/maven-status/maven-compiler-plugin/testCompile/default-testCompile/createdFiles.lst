@@ -1,5 +1,6 @@
 configurations\BaseUIPageObject.class
 pageobjects\HomePage.class
+Z_HamcrestAssertion\AllHamcrestAssertions.class
 utils\Waits.class
 configurations\Hooks.class
 utils\TestData.class
