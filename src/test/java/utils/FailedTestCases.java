@@ -8,15 +8,15 @@ import org.openqa.selenium.io.FileHandler;
 import java.io.File;
 import java.io.IOException;
 
-public class FailedTestCaseScenarios extends BaseUIPageObject {
+public class FailedTestCases extends BaseUIPageObject {
 
     public static void getScreenShot(String TestScenarioName) {
 
         TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
-        File imgage = takesScreenshot.getScreenshotAs(OutputType.FILE);
+        File image = takesScreenshot.getScreenshotAs(OutputType.FILE);
 
         try {
-            FileHandler.copy(imgage, new File("src/test/reports/ScreenShots/"+TestScenarioName+".png"));
+            FileHandler.copy(image, new File("src/test/reports/ScreenShots/"+TestScenarioName+".png"));
         } catch (IOException e) {
             e.printStackTrace();
         }

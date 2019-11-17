@@ -13,9 +13,13 @@ import java.util.List;
 
 public class TestData {
 
-public static void getData(final int columnNumber) throws IOException {
+    public static void main(String[] args) {
+        getData(2);
+        System.out.println(getData(2));
+    }
+public static ArrayList<String> getData(final int columnNumber) {
 
-    List<String> list=new ArrayList<String>();
+    ArrayList<String> columnData=new ArrayList<String>();
     try{
         FileInputStream file=new FileInputStream("C:\\Users\\sball\\git\\cath\\src\\test\\java\\TestData\\Login_Data.xls");
         HSSFWorkbook workbook=new HSSFWorkbook(file);
@@ -23,14 +27,13 @@ public static void getData(final int columnNumber) throws IOException {
         Iterator<Row> rows=sheet.iterator();
         rows.next();
         while(rows.hasNext()) {
-          list.add(rows.next().getCell(columnNumber).getStringCellValue());
+          columnData.add(rows.next().getCell(columnNumber).getStringCellValue());
         }
-     }catch (IOException io)
-    {
+     }catch (IOException io) {
         io.printStackTrace();
-    }
+     }
 
-    System.out.println(list);
+    return columnData;
 
 }
 

@@ -6,7 +6,7 @@ import io.cucumber.java.Before;
 import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.PropertyConfigurator;
 import org.slf4j.Logger;
-import utils.FailedTestCaseScenarios;
+import utils.FailedTestCases;
 import static org.slf4j.LoggerFactory.getLogger;
 
 public class Hooks extends BaseUIPageObject<Hooks> {
@@ -39,7 +39,7 @@ public class Hooks extends BaseUIPageObject<Hooks> {
     public void tearDown(Scenario scenario) {
         String name=scenario.getName();
         if(scenario.isFailed()) {
-            FailedTestCaseScenarios.getScreenShot(name);
+            FailedTestCases.getScreenShot(name);
          }
         log.info("Browser Tear Down........................................!");
         driver.close();

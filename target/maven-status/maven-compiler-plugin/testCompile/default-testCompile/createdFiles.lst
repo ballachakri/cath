@@ -1,10 +1,10 @@
 configurations\BaseUIPageObject.class
 pageobjects\HomePage.class
 Z_HamcrestAssertion\AllHamcrestAssertions.class
+utils\FailedTestCases.class
 utils\Waits.class
 configurations\Hooks.class
 utils\TestData.class
 stepDefs\ShouldBeAbleToSearchProduct.class
-utils\FailedTestCaseScenarios.class
 FailedRunner.class
 TestRunner.class

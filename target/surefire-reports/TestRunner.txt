@@ -1,4 +1,32 @@
 -------------------------------------------------------------------------------
 Test set: TestRunner
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 566.569 s - in TestRunner
+Tests run: 8, Failures: 0, Errors: 8, Skipped: 0, Time elapsed: 3.655 s <<< FAILURE! - in TestRunner
+User should be able to search a Product(Search a Product)  Time elapsed: 1.734 s  <<< ERROR!
+io.github.bonigarcia.wdm.WebDriverManagerException: java.net.UnknownHostException: npm.taobao.org
+Caused by: java.net.UnknownHostException: npm.taobao.org
+
+User should be able to search a Product(Search a Product)  Time elapsed: 1.734 s  <<< ERROR!
+java.lang.NullPointerException
+
+User should be able to search a Product(Search a Product)  Time elapsed: 0.437 s  <<< ERROR!
+io.github.bonigarcia.wdm.WebDriverManagerException: java.net.UnknownHostException: npm.taobao.org
+Caused by: java.net.UnknownHostException: npm.taobao.org
+
+User should be able to search a Product(Search a Product)  Time elapsed: 0.437 s  <<< ERROR!
+java.lang.NullPointerException
+
+User should be able to search a Product(Search a Product)  Time elapsed: 0.437 s  <<< ERROR!
+io.github.bonigarcia.wdm.WebDriverManagerException: java.net.UnknownHostException: npm.taobao.org
+Caused by: java.net.UnknownHostException: npm.taobao.org
+
+User should be able to search a Product(Search a Product)  Time elapsed: 0.437 s  <<< ERROR!
+java.lang.NullPointerException
+
+User should be able to search a Product(Search a Product)  Time elapsed: 0.485 s  <<< ERROR!
+io.github.bonigarcia.wdm.WebDriverManagerException: java.net.UnknownHostException: npm.taobao.org
+Caused by: java.net.UnknownHostException: npm.taobao.org
+
+User should be able to search a Product(Search a Product)  Time elapsed: 0.485 s  <<< ERROR!
+java.lang.NullPointerException
+

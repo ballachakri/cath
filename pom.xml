@@ -97,11 +97,11 @@
           <artifactId>maven-surefire-plugin</artifactId>
           <version>2.22.1</version>
           <!-- this configuration tag is for to rerun failed test casses -->
-          <configuration>
-            <includes>
-              <include>**/*Runner.java</include>
-            </includes>
-          </configuration>
+<!--          <configuration>-->
+<!--            <includes>-->
+<!--              <include>**/*Runner.java</include>-->
+<!--            </includes>-->
+<!--          </configuration>-->
         </plugin>
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
@@ -126,5 +126,15 @@
         </plugin>
       </plugins>
     </pluginManagement>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>8</source>
+          <target>8</target>
+        </configuration>
+      </plugin>
+    </plugins>
   </build>
 </project>

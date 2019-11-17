@@ -1,4 +1,4 @@
-package com.automationtests;
+package Java_Tech_Exercises;
 
 import org.openqa.selenium.WebDriver;
 
