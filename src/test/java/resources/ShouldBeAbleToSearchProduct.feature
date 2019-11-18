@@ -12,3 +12,6 @@ Scenario Outline: User should be able to search a Product
     Examples:
     |product|
     | shirt |
+    | bags|
+    | shoe |
+    | skirt |

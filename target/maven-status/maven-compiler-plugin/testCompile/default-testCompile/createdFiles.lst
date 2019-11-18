@@ -1,9 +1,14 @@
 configurations\BaseUIPageObject.class
-pageobjects\HomePage.class
-Z_HamcrestAssertion\AllHamcrestAssertions.class
 utils\FailedTestCases.class
 utils\Waits.class
+Menu\GlobalContants\Categories_Constants.class
+Menu\MainCategory.class
+Menu\SubCategory.class
+pageobjects\HomePage.class
+Z_HamcrestAssertion\AllHamcrestAssertions.class
+Menu\GlobalContants\Menus_Constants.class
 configurations\Hooks.class
 utils\TestData.class
 stepDefs\ShouldBeAbleToSearchProduct.class
+Menu\MainMenu.class
 TestRunner.class

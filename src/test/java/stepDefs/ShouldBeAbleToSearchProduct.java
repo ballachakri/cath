@@ -18,19 +18,18 @@ public class ShouldBeAbleToSearchProduct {
     public void i_am_on_the_home_page() {
     homePage= new HomePage();
     homePage.openHomePage();
-    new MainCategory().category(Categories_Constants.CHRISTMAS.toString());
-   }
+    }
 
     @When("I search for a product {string}")
     public void i_search_for_a_product(String product) {
-//        searchProduct=product;
-//        homePage.searchProduct(product).clickMagnifyingGlassIcon();
+        searchProduct=product;
+        homePage.searchProduct(product).clickMagnifyingGlassIcon();
     }
 
     @Then("I should view all the relevant products")
     public void i_should_view_all_the_relevant_products() {
-//        assertThat("Wrong search results are displayed, please investigate",
-//                homePage.getSearchResultTitle() , containsString(searchProduct));
+        assertThat("Wrong search results are displayed, please investigate",
+                homePage.getSearchResultTitle() , containsString(searchProduct));
     }
 
 }
