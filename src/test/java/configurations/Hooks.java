@@ -32,6 +32,7 @@ public class Hooks extends BaseUIPageObject<Hooks> {
         setUpBrowser(TEST_ENVIRONMENT);
         maximizeBrowser();
         log.info("Browser Launched........................................!");
+        log.info("checking the feature branches in git ....................................................");
     }
 
 
