@@ -1,32 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestRunner
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 0, Errors: 8, Skipped: 0, Time elapsed: 3.655 s <<< FAILURE! - in TestRunner
-User should be able to search a Product(Search a Product)  Time elapsed: 1.734 s  <<< ERROR!
-io.github.bonigarcia.wdm.WebDriverManagerException: java.net.UnknownHostException: npm.taobao.org
-Caused by: java.net.UnknownHostException: npm.taobao.org
-
-User should be able to search a Product(Search a Product)  Time elapsed: 1.734 s  <<< ERROR!
-java.lang.NullPointerException
-
-User should be able to search a Product(Search a Product)  Time elapsed: 0.437 s  <<< ERROR!
-io.github.bonigarcia.wdm.WebDriverManagerException: java.net.UnknownHostException: npm.taobao.org
-Caused by: java.net.UnknownHostException: npm.taobao.org
-
-User should be able to search a Product(Search a Product)  Time elapsed: 0.437 s  <<< ERROR!
-java.lang.NullPointerException
-
-User should be able to search a Product(Search a Product)  Time elapsed: 0.437 s  <<< ERROR!
-io.github.bonigarcia.wdm.WebDriverManagerException: java.net.UnknownHostException: npm.taobao.org
-Caused by: java.net.UnknownHostException: npm.taobao.org
-
-User should be able to search a Product(Search a Product)  Time elapsed: 0.437 s  <<< ERROR!
-java.lang.NullPointerException
-
-User should be able to search a Product(Search a Product)  Time elapsed: 0.485 s  <<< ERROR!
-io.github.bonigarcia.wdm.WebDriverManagerException: java.net.UnknownHostException: npm.taobao.org
-Caused by: java.net.UnknownHostException: npm.taobao.org
-
-User should be able to search a Product(Search a Product)  Time elapsed: 0.485 s  <<< ERROR!
-java.lang.NullPointerException
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 488.714 s <<< FAILURE! - in TestRunner
+User should be able to search a Product(Search a Product)  Time elapsed: 93.589 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"p[class='page_summary']"}
+  (Session info: chrome=78.0.3904.97)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CHAKRA-PC', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\sball\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63141}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ca027714038870253671eb147e22d1c3
+*** Element info: {Using=css selector, value=p[class='page_summary']}
 

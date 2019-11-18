@@ -6,6 +6,11 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+/**
+ * <p>
+ *     Setup the Home Page
+ * </p>
+ */
 public class HomePage extends BaseUIPageObject<HomePage> {
 
     @FindBy(css = "button[id='onesignal-popover-cancel-button']")
@@ -20,18 +25,21 @@ public class HomePage extends BaseUIPageObject<HomePage> {
     @FindBy(css = "#search > fieldset > div > button")
     private WebElement magnifyingGlassIcon;
 
-    @FindBy(css = "p[class='page_summary']")
+    @FindBy(css = "div[id='search_summary'] span")
     private WebElement searchResultsTitle;
 
     public HomePage() {
         PageFactory.initElements(driver, this);
     }
 
-
+    /**
+     * This method clears the cookies and notifications.
+     * Then setup the Home Page
+     */
     public void openHomePage() {
         disableNotification();
         killCookies();
-    }
+       }
 
     private void disableNotification() {
         utils.Waits.waitUntilVisibility(noThanksButton);
@@ -56,9 +64,8 @@ public class HomePage extends BaseUIPageObject<HomePage> {
 
     public String getSearchResultTitle() {
 
-        String productName = searchResultsTitle.getText().
-                replace("Showing search results for ‘", "").replace("’.", "");
-        return productName;
+        return searchResultsTitle.getText();
+
     }
 
 }

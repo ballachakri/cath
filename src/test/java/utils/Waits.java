@@ -3,14 +3,19 @@ package utils;
 import configurations.BaseUIPageObject;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.*;
 
 import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 
 
-public class Waits extends BaseUIPageObject {
+public class Waits extends BaseUIPageObject<Waits> {
 
+    public Waits()
+    {
+        PageFactory.initElements(driver,this);
+    }
     public static void waitUntilVisibility(WebElement element) {
         WebDriverWait wait = new WebDriverWait(driver, 3000);
         wait.until(ExpectedConditions.visibilityOf(element));

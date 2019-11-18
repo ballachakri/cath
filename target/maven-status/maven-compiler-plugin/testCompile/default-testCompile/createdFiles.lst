@@ -6,5 +6,4 @@ utils\Waits.class
 configurations\Hooks.class
 utils\TestData.class
 stepDefs\ShouldBeAbleToSearchProduct.class
-FailedRunner.class
 TestRunner.class

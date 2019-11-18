@@ -2,7 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0676d69d-37db-4314-8edf-9d8d45876ca7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/FailedRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FailedRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Menu/GlobalContants/Categories_Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Menu/GlobalContants/Menus_Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Menu/MainCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Menu/MainMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Menu/SubCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Log4jLogs/application.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Log4jLogs/application.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/configurations/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/configurations/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/ShouldBeAbleToSearchProduct.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/ShouldBeAbleToSearchProduct.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefs/ShouldBeAbleToSearchProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefs/ShouldBeAbleToSearchProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Waits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Waits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/reports/ScreenShots/User should be able to search a Product.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/reports/ScreenShots/User should be able to search a Product.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/reports/cath.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/reports/cath.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/reports/failedTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/reports/failedTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/reports/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Tech_Exercises/ReverseOfNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Tech_Exercises/ReverseOfNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/cath.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestRunner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestRunner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/FailedRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/configurations/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/configurations/Hooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefs/ShouldBeAbleToSearchProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefs/ShouldBeAbleToSearchProduct.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +41,7 @@
       <list>
         <option value="Substep Feature" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -63,20 +90,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReverseOfNumber">
-    <configuration name="ArraysDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Tech_Exercises.ArraysDemo" />
-      <module name="cath" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Tech_Exercises.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestRunner">
     <configuration name="FactorialNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_Tech_Exercises.FactorialNumber" />
       <module name="cath" />
@@ -129,13 +143,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cath" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Application.ReverseOfNumber" />
         <item itemvalue="Application.FibonacciNumber" />
         <item itemvalue="Application.FactorialNumber" />
         <item itemvalue="Application.oddEven" />
-        <item itemvalue="Application.ArraysDemo" />
       </list>
     </recent_temporary>
   </component>

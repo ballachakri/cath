@@ -35,7 +35,7 @@ public class Hooks extends BaseUIPageObject<Hooks> {
     }
 
 
-    @After
+   // @After
     public void tearDown(Scenario scenario) {
         String name=scenario.getName();
         if(scenario.isFailed()) {
