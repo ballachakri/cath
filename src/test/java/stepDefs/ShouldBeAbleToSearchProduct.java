@@ -1,7 +1,5 @@
 package stepDefs;
 
-import Menu.GlobalContants.Categories_Constants;
-import Menu.MainCategory;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;

@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 
 /**
  * <p>
- *     Setup the Home Page
+ *     Page object > Home Page
  * </p>
  */
 public class HomePage extends BaseUIPageObject<HomePage> {
@@ -29,7 +29,7 @@ public class HomePage extends BaseUIPageObject<HomePage> {
     private WebElement searchResultsTitle;
 
     public HomePage() {
-        PageFactory.initElements(driver, this);
+        super(); //PageFactory.initElements(driver, this);
     }
 
     /**
@@ -40,30 +40,52 @@ public class HomePage extends BaseUIPageObject<HomePage> {
         disableNotification();
         killCookies();
        }
-
+    /**
+     * <p>
+     * This method clicks cancel notifications button.
+     * </p>
+     */
     private void disableNotification() {
         utils.Waits.waitUntilVisibility(noThanksButton);
         noThanksButton.click();
         }
-
+    /**
+     * <p>
+     * This method clicks cookies x icon.
+     * </p>
+     */
     private void killCookies() {
        utils.Waits.waitUntilVisibility(xCookies);
        xCookies.click();
 
     }
-
+    /**
+     * <p>
+     *     This method enters product in search Test field.
+     * </p>
+     */
     public HomePage searchProduct(final String product) {
         searchTextField.sendKeys(product);
         return this;
     }
 
+    /**
+     * <p>
+     * This method clicks search icon.
+     * </p>
+     */
     public HomePage clickMagnifyingGlassIcon() {
         new Actions(driver).click(magnifyingGlassIcon).click().build().perform();
         return this;
     }
 
+    /**
+     * <p>
+     *     This method returns the search result text.
+     * </p>
+     * @return
+     */
     public String getSearchResultTitle() {
-
         return searchResultsTitle.getText();
 
     }

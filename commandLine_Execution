@@ -1,0 +1,31 @@
+Cucumber with Maven way:
+to run a with tag name
+>mvn test -Dcucumber.options="--tags @tagName"
+or multiple tags
+>>mvn test -Dcucumber.options="--tags @tagName @tageName "
+or for particular feature file
+> mvn test -Dcucumber.options="path to .feature file"
+or for particular scenario
+> mvn test -Dcucumber.options="path to .feature file:linenumber of scenario"
+or to run multiple feature files.
+> mvn test -Dcucumber.options=”path to feature file” -Dcucumber.options=”path to feature file”
+
+TestNG with Maven way:
+Step1: configure maven-surefire-plugin with below configuration.
+
+  <configuration>
+      <suiteXmlFiles>
+        <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
+      </suiteXmlFiles>
+    </configuration>
+
+Step 2:
+> mvn clean test -DsuiteXmlFile=testngSuite.xml
+
+
+Junit with Maven way:
+>mvn clean test
+Or to run a particular test class
+>mvn clean test -Dtest=your.package.TestClassName
+or to run a particualr method.
+>mvn clean test -Dtest=your.package.TestClassName#particularMethod

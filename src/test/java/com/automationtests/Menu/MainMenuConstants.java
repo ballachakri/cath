@@ -1,11 +1,11 @@
-package Menu.GlobalContants;
+package com.automationtests.Menu;
 
 /**
  * <P>
  *     Home Page Top Level menu options
  * </P>
  */
-public enum Menus_Constants {
+public enum MainMenuConstants {
 
     STUDENTS,
     GIFT_CAR_BALANCE,

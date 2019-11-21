@@ -11,30 +11,37 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+/**
+ * Utils > Test Date
+ */
 public class TestData {
+    /**
+     * <p>
+     * This method reads the column Test Data from given excel file as list.
+     * Need to pass the column number as parameter
+     * </p>
+     *
+     * @param args
+     */
 
-    public static void main(String[] args) {
-        getData(2);
-        System.out.println(getData(2));
-    }
-public static ArrayList<String> getData(final int columnNumber) {
+    public static ArrayList<String> getData(final int columnNumber) {
 
-    ArrayList<String> columnData=new ArrayList<String>();
-    try{
-        FileInputStream file=new FileInputStream("C:\\Users\\sball\\git\\cath\\src\\test\\java\\TestData\\Login_Data.xls");
-        HSSFWorkbook workbook=new HSSFWorkbook(file);
-        HSSFSheet sheet=workbook.getSheetAt(0);
-        Iterator<Row> rows=sheet.iterator();
-        rows.next();
-        while(rows.hasNext()) {
-          columnData.add(rows.next().getCell(columnNumber).getStringCellValue());
+        ArrayList<String> columnData = new ArrayList<String>();
+        try {
+            FileInputStream file = new FileInputStream("C:\\Users\\sball\\git\\cath\\src\\test\\java\\TestData\\Login_Data.xls");
+            HSSFWorkbook workbook = new HSSFWorkbook(file);
+            HSSFSheet sheet = workbook.getSheetAt(0);
+            Iterator<Row> rows = sheet.iterator();
+            rows.next();
+            while (rows.hasNext()) {
+                columnData.add(rows.next().getCell(columnNumber).getStringCellValue());
+            }
+        } catch (IOException io) {
+            io.printStackTrace();
         }
-     }catch (IOException io) {
-        io.printStackTrace();
-     }
 
-    return columnData;
+        return columnData;
 
-}
+    }
 
 }

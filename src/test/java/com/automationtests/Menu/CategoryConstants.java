@@ -1,6 +1,6 @@
-package Menu.GlobalContants;
+package com.automationtests.Menu;
 
-public enum Categories_Constants {
+public enum CategoryConstants {
 
     NEW_IN,
     SNOOPY,
