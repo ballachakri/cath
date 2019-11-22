@@ -23,7 +23,7 @@ public class Hooks extends BaseUIPageObject {
     final static Logger log= getLogger(Hooks.class);
 
     @Before
-    public void setUpHomePage() throws MalformedURLException {
+    public void setUpHomePage()  {
 
         /** Configure Basic configuration for logging  */
         BasicConfigurator.configure();
