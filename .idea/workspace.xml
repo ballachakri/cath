@@ -2,37 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0676d69d-37db-4314-8edf-9d8d45876ca7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Grid Execution commands" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Log4jLogs/application.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Log4jLogs/application.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automationtests/Menu/MainCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automationtests/Menu/MainCategory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automationtests/Menu/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automationtests/Menu/MainMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/configurations/BaseUIPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/configurations/BaseUIPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/configurations/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/configurations/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/resources/ShouldBeAbleToSearchProduct.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/ShouldBeAbleToSearchProduct.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefs/ShouldBeAbleToSearchProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefs/ShouldBeAbleToSearchProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/LinkChecks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/LinkChecks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Waits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/WaitsForUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/reports/ScreenShots/User should be able to search a Product.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/reports/ScreenShots/User should be able to search a Product.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/reports/cath.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/reports/cath.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/reports/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/cath.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestRunner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestRunner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/automationtests/Menu/MainCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/automationtests/Menu/MainCategory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/automationtests/Menu/MainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/automationtests/Menu/MainMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/configurations/BaseUIPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/configurations/BaseUIPageObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/configurations/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/configurations/Hooks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefs/ShouldBeAbleToSearchProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefs/ShouldBeAbleToSearchProduct.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/LinkChecks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/LinkChecks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/Waits.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
