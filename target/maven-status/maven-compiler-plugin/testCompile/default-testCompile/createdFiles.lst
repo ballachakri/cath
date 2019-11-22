@@ -2,14 +2,15 @@ configurations\BaseUIPageObject.class
 com\automationtests\Menu\MainMenu.class
 utils\FailedTestCases.class
 com\automationtests\Menu\SubCategory.class
-utils\Waits.class
 com\automationtests\Menu\MainCategory.class
 com\automationtests\Menu\CategoryConstants.class
 pageobjects\HomePage.class
 utils\GenerateRandomNumber.class
 com\automationtests\Menu\MainMenuConstants.class
+utils\WaitsForUI.class
 Z_HamcrestAssertion\AllHamcrestAssertions.class
 configurations\Hooks.class
 utils\TestData.class
 stepDefs\ShouldBeAbleToSearchProduct.class
+utils\LinkChecks.class
 TestRunner.class

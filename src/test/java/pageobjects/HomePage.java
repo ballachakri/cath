@@ -1,6 +1,9 @@
 package pageobjects;
 
 import configurations.BaseUIPageObject;
+import org.junit.experimental.theories.Theories;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
@@ -11,7 +14,7 @@ import org.openqa.selenium.support.PageFactory;
  *     Page object > Home Page
  * </p>
  */
-public class HomePage extends BaseUIPageObject<HomePage> {
+public class HomePage extends BaseUIPageObject {
 
     @FindBy(css = "button[id='onesignal-popover-cancel-button']")
     private WebElement noThanksButton;
@@ -25,12 +28,9 @@ public class HomePage extends BaseUIPageObject<HomePage> {
     @FindBy(css = "#search > fieldset > div > button")
     private WebElement magnifyingGlassIcon;
 
-    @FindBy(css = "div[id='search_summary'] span")
+    @FindBy(css = "p[class='page_summary'] span:nth-child(1)")
     private WebElement searchResultsTitle;
 
-    public HomePage() {
-        super(); //PageFactory.initElements(driver, this);
-    }
 
     /**
      * This method clears the cookies and notifications.
@@ -46,16 +46,18 @@ public class HomePage extends BaseUIPageObject<HomePage> {
      * </p>
      */
     private void disableNotification() {
-        utils.Waits.waitUntilVisibility(noThanksButton);
+
+        utils.WaitsForUI.waitUntilVisibility(noThanksButton);
         noThanksButton.click();
-        }
+            }
     /**
      * <p>
      * This method clicks cookies x icon.
      * </p>
      */
     private void killCookies() {
-       utils.Waits.waitUntilVisibility(xCookies);
+
+       utils.WaitsForUI.waitUntilVisibility(xCookies);
        xCookies.click();
 
     }
@@ -65,6 +67,7 @@ public class HomePage extends BaseUIPageObject<HomePage> {
      * </p>
      */
     public HomePage searchProduct(final String product) {
+
         searchTextField.sendKeys(product);
         return this;
     }
@@ -86,8 +89,8 @@ public class HomePage extends BaseUIPageObject<HomePage> {
      * @return
      */
     public String getSearchResultTitle() {
+        utils.WaitsForUI.waitUntilVisibility(searchResultsTitle);
         return searchResultsTitle.getText();
-
     }
 
 }

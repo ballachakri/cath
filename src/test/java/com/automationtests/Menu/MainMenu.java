@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Menu > Top level Main Menu
  */
-public class MainMenu extends BaseUIPageObject<MainMenu> {
+public class MainMenu extends BaseUIPageObject {
 
     @FindBy(css = "div[id='header_stripe'] ul[class='sub_navigation'] li")
     private List<WebElement> topLevelMenu;
@@ -40,7 +40,7 @@ public class MainMenu extends BaseUIPageObject<MainMenu> {
 
             }
             if (elementText.equals(menu)) {
-                utils.Waits.waitUntilClickable(topMenu);
+                utils.WaitsForUI.waitUntilClickable(topMenu);
                 topMenu.click();
                 break;
             }

@@ -6,11 +6,12 @@ C:\Users\sball\git\cath\src\test\java\FailedRunner.java
 C:\Users\sball\git\cath\src\test\java\com\automationtests\Menu\MainCategory.java
 C:\Users\sball\git\cath\src\test\java\com\automationtests\Menu\MainMenuConstants.java
 C:\Users\sball\git\cath\src\test\java\TestRunner.java
-C:\Users\sball\git\cath\src\test\java\utils\Waits.java
 C:\Users\sball\git\cath\src\test\java\stepDefs\ShouldBeAbleToSearchProduct.java
 C:\Users\sball\git\cath\src\test\java\utils\GenerateRandomNumber.java
 C:\Users\sball\git\cath\src\test\java\configurations\Hooks.java
+C:\Users\sball\git\cath\src\test\java\utils\LinkChecks.java
 C:\Users\sball\git\cath\src\test\java\com\automationtests\Menu\SubCategory.java
 C:\Users\sball\git\cath\src\test\java\configurations\BaseUIPageObject.java
 C:\Users\sball\git\cath\src\test\java\utils\FailedTestCases.java
+C:\Users\sball\git\cath\src\test\java\utils\WaitsForUI.java
 C:\Users\sball\git\cath\src\test\java\pageobjects\HomePage.java

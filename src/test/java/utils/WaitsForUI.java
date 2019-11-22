@@ -9,11 +9,11 @@ import org.openqa.selenium.support.ui.*;
 /**
  * Utils > Waits -pre-defined waits
  */
-public class Waits extends BaseUIPageObject<Waits> {
+public class WaitsForUI extends BaseUIPageObject {
 
-    public Waits()
+    public WaitsForUI()
     {
-        super(); // PageFactory.initElements(driver,this);
+        PageFactory.initElements(driver,this);
     }
 
     /**

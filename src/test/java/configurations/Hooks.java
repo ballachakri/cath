@@ -7,9 +7,12 @@ import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.PropertyConfigurator;
 import org.slf4j.Logger;
 import utils.FailedTestCases;
+
+import java.net.MalformedURLException;
+
 import static org.slf4j.LoggerFactory.getLogger;
 
-public class Hooks extends BaseUIPageObject<Hooks> {
+public class Hooks extends BaseUIPageObject {
 
     private String TEST_ENVIRONMENT="https://www.cathkidston.com/";
 
@@ -20,7 +23,7 @@ public class Hooks extends BaseUIPageObject<Hooks> {
     final static Logger log= getLogger(Hooks.class);
 
     @Before
-    public void setUpHomePage() {
+    public void setUpHomePage() throws MalformedURLException {
 
         /** Configure Basic configuration for logging  */
         BasicConfigurator.configure();
@@ -30,6 +33,7 @@ public class Hooks extends BaseUIPageObject<Hooks> {
          */
         PropertyConfigurator.configure("log4j.properties");
         setUpBrowser(TEST_ENVIRONMENT);
+        //setUpGrid(TEST_ENVIRONMENT);
         maximizeBrowser();
         log.info("Browser Launched........................................!");
         log.info("checking the feature branches in git ....................................................");

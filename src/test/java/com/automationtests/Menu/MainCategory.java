@@ -11,7 +11,7 @@ import java.util.List;
  * Menu > Main Category
  * </p>
  */
-public class MainCategory extends BaseUIPageObject<MainCategory> {
+public class MainCategory extends BaseUIPageObject {
 
     @FindBy(css = "ul[class='level_1 children_13'] a[class='level_1']")
     private List<WebElement> categories;

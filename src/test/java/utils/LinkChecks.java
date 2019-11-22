@@ -17,7 +17,7 @@ import java.util.List;
  * Code to check the broken hyper links on the web page.
  * </p>
  */
-public class LinkChecks extends BaseUIPageObject<LinkChecks> {
+public class LinkChecks extends BaseUIPageObject {
 
     /**
      * This methods get all the href attributes by tag name "a"

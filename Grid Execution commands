@@ -1,0 +1,13 @@
+To start Hub:
+
+java -jar C:\Users\sball\Downloads\selenium-server-standalone-3.141.59.jar -role hub -timeout 30 -browserTimeout 60
+
+To start Node for firefox :
+
+geckodriver.exe
+
+java -Dwebdriver.gecko.driver=C:\Users\sball\Downloads\BrowserDrivers\geckodriver.exe -jar C:\Users\sball\Downloads\selenium-server-standalone-3.141.59.jar -role node -hub http://192.168.56.1:4444/grid/register
+
+chromedrvier.exe
+
+java -Dwebdriver.chrome.driver=C:\Users\sball\Downloads\BrowserDrivers\chromedriver.exe -jar C:\Users\sball\Downloads\selenium-server-standalone-3.141.59.jar -role node -hub http://192.168.56.1:4444/grid/register

@@ -3,10 +3,14 @@ package stepDefs;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.hamcrest.Matchers;
 import pageobjects.HomePage;
 
 import static org.hamcrest.CoreMatchers.containsString;
+import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.equalToIgnoringCase;
+import static org.hamcrest.Matchers.equalToIgnoringWhiteSpace;
 
 public class ShouldBeAbleToSearchProduct {
     private HomePage homePage;
@@ -26,8 +30,8 @@ public class ShouldBeAbleToSearchProduct {
 
     @Then("I should view all the relevant products")
     public void i_should_view_all_the_relevant_products() {
-        assertThat("Wrong search results are displayed, please investigate",
-                homePage.getSearchResultTitle() , containsString(searchProduct));
-    }
+       assertThat("Wrong search results are displayed, please investigate",
+                homePage.getSearchResultTitle(), equalToIgnoringCase(searchProduct));
+ }
 
 }
