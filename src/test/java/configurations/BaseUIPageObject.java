@@ -21,7 +21,7 @@ import static org.openqa.selenium.Platform.WIN10;
 public class BaseUIPageObject {
 
     public static WebDriver driver;
-    private String browser = "firefox";
+    private String browser = "chrome";
 
     public BaseUIPageObject()
     {
