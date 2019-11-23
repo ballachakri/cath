@@ -15,7 +15,7 @@ public class Hooks extends BaseUIPageObject {
     private String TEST_ENVIRONMENT="https://www.cathkidston.com/";
 
     /**
-     *    initial Log4j Logger --
+     *    initialize Log4j Logger --
      */
 
     final static Logger log= getLogger(Hooks.class);
