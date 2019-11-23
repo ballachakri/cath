@@ -6,6 +6,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = { "src/test" },
         tags = {},
+        monochrome = true,
         plugin = {"html:src/test/reports",
                   "json:src/test/reports/cath.json",
                   "rerun:src/test/reports/failedTest.txt"
