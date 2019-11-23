@@ -78,7 +78,8 @@ public class HomePage extends BaseUIPageObject {
      * </p>
      */
     public HomePage clickMagnifyingGlassIcon() {
-        new Actions(driver).click(magnifyingGlassIcon).click().build().perform();
+        searchTextField.sendKeys(Keys.ENTER);
+    //new Actions(driver).click(magnifyingGlassIcon).click().build().perform();
         return this;
     }
 
