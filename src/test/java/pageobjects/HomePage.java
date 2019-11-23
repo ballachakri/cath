@@ -32,6 +32,7 @@ public class HomePage extends BaseUIPageObject {
     private WebElement searchResultsTitle;
 
 
+
     /**
      * This method clears the cookies and notifications.
      * Then setup the Home Page
@@ -68,7 +69,8 @@ public class HomePage extends BaseUIPageObject {
      */
     public HomePage searchProduct(final String product) {
 
-        searchTextField.sendKeys(product);
+        //searchTextField.sendKeys(product);
+        searchTextField.sendKeys(product,Keys.ENTER);
         return this;
     }
 
@@ -78,7 +80,7 @@ public class HomePage extends BaseUIPageObject {
      * </p>
      */
     public HomePage clickMagnifyingGlassIcon() {
-        searchTextField.sendKeys(Keys.ENTER);
+       // searchTextField.sendKeys(Keys.ENTER);
     //new Actions(driver).click(magnifyingGlassIcon).click().build().perform();
         return this;
     }

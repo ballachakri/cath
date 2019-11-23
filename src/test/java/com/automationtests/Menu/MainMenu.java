@@ -3,6 +3,7 @@ package com.automationtests.Menu;
 import configurations.BaseUIPageObject;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
 
@@ -15,7 +16,7 @@ public class MainMenu extends BaseUIPageObject {
     private List<WebElement> topLevelMenu;
 
     public MainMenu() {
-        super();// PageFactory.initElements(driver, this);
+       PageFactory.initElements(driver, this);
     }
 
     /**

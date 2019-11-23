@@ -8,8 +8,6 @@ import org.apache.log4j.PropertyConfigurator;
 import org.slf4j.Logger;
 import utils.FailedTestCases;
 
-import java.net.MalformedURLException;
-
 import static org.slf4j.LoggerFactory.getLogger;
 
 public class Hooks extends BaseUIPageObject {

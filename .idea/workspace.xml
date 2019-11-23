@@ -3,19 +3,27 @@
   <component name="ChangeListManager">
     <list default="true" id="0676d69d-37db-4314-8edf-9d8d45876ca7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Log4jLogs/application.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Log4jLogs/application.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automationtests/Menu/MainCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automationtests/Menu/MainCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automationtests/Menu/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automationtests/Menu/MainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/configurations/BaseUIPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/configurations/BaseUIPageObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/configurations/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/configurations/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/FailedTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/FailedTestCases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/LinkChecks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/LinkChecks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/WaitsForUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/WaitsForUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/reports/cath.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/reports/cath.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/reports/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cath-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2019-11-23T08-29-58_667-jvmRun1.dump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestRunner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestRunner.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cath-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/cath-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestRunner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestRunner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/automationtests/Menu/MainCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/automationtests/Menu/MainCategory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/automationtests/Menu/MainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/automationtests/Menu/MainMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/configurations/BaseUIPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/configurations/BaseUIPageObject.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/configurations/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/configurations/Hooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/FailedTestCases.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/FailedTestCases.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/LinkChecks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/LinkChecks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/WaitsForUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/WaitsForUI.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

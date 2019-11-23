@@ -12,6 +12,8 @@ import java.io.IOException;
  * Utils > FailedTestCases
  */
 public class FailedTestCases extends BaseUIPageObject {
+
+
     /**
      * <p>
      *     This method captures the screen shot of the failed test scenarios.

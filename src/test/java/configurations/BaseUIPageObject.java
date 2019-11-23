@@ -3,7 +3,6 @@ package configurations;
 import io.github.bonigarcia.wdm.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
@@ -15,8 +14,6 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.net.MalformedURLException;
 import java.net.URL;
-
-import static org.openqa.selenium.Platform.WIN10;
 
 public class BaseUIPageObject {
 

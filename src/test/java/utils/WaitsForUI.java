@@ -1,7 +1,6 @@
 package utils;
 
 import configurations.BaseUIPageObject;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.*;
@@ -11,9 +10,8 @@ import org.openqa.selenium.support.ui.*;
  */
 public class WaitsForUI extends BaseUIPageObject {
 
-    public WaitsForUI()
-    {
-        PageFactory.initElements(driver,this);
+    public WaitsForUI() {
+          PageFactory.initElements(driver,this);
     }
 
     /**
