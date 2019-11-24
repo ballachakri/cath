@@ -1,4 +1,4 @@
-package configurations;
+package configurationsbase;
 
 import io.cucumber.core.api.Scenario;
 import io.cucumber.java.After;

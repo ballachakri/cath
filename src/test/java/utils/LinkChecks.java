@@ -1,6 +1,6 @@
 package utils;
 
-import configurations.BaseUIPageObject;
+import configurationsbase.BaseUIPageObject;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;

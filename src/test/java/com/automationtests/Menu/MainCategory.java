@@ -1,6 +1,6 @@
 package com.automationtests.Menu;
 
-import configurations.BaseUIPageObject;
+import configurationsbase.BaseUIPageObject;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
