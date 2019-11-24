@@ -8,8 +8,6 @@ import org.apache.log4j.PropertyConfigurator;
 import org.slf4j.Logger;
 import utils.FailedTestCases;
 
-import java.net.MalformedURLException;
-
 import static org.slf4j.LoggerFactory.getLogger;
 
 public class Hooks extends BaseUIPageObject {
@@ -17,7 +15,7 @@ public class Hooks extends BaseUIPageObject {
     private String TEST_ENVIRONMENT="https://www.cathkidston.com/";
 
     /**
-     *    initial Log4j Logger --
+     *    initialize Log4j Logger --
      */
 
     final static Logger log= getLogger(Hooks.class);
@@ -35,6 +33,7 @@ public class Hooks extends BaseUIPageObject {
         setUpBrowser(TEST_ENVIRONMENT);
         //setUpGrid(TEST_ENVIRONMENT);
         maximizeBrowser();
+        System.out.println("need to change and implement data base testing.......................................@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@!");
         log.info("Browser Launched........................................!");
         log.info("checking the feature branches in git ....................................................");
     }

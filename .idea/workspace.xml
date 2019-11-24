@@ -3,14 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="0676d69d-37db-4314-8edf-9d8d45876ca7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Log4jLogs/application.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Log4jLogs/application.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/configurations/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/configurations/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/ShouldBeAbleToSearchProduct.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/ShouldBeAbleToSearchProduct.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/reports/cath.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/reports/cath.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/reports/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cath-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/cath-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestRunner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestRunner.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/configurations/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/configurations/Hooks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/HomePage.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Substep Feature" />
         <option value="Enum" />
+        <option value="Substep Feature" />
         <option value="Class" />
       </list>
     </option>
@@ -43,7 +47,11 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/javademo" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/mysql-connector-java-5.12/mysql-connector-java-5.1.42/mysql-connector-java-5.1.42-bin.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -73,6 +81,19 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.TestRunner">
+    <configuration name="CountryDataBaseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.automationtests.dbTest.CountryDataBaseTest" />
+      <module name="cath" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automationtests.dbTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LinkChecks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="utils.LinkChecks" />
       <module name="cath" />
@@ -86,25 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyInetAddress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Important_Java_Topics.MyInetAddress" />
-      <module name="cath" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Important_Java_Topics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MyUrl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Important_Java_Topics.MyUrl" />
       <module name="cath" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Important_Java_Topics.*" />
+          <option name="PATTERN" value="com.automationtests.dbTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,7 +125,7 @@
       <module name="cath" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Important_Java_Topics.*" />
+          <option name="PATTERN" value="com.automationtests.dbTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,10 +145,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Application.CountryDataBaseTest" />
         <item itemvalue="Application.SystemPropertiesJava" />
         <item itemvalue="Application.LinkChecks" />
         <item itemvalue="Application.MyUrl" />
-        <item itemvalue="Application.MyInetAddress" />
       </list>
     </recent_temporary>
   </component>

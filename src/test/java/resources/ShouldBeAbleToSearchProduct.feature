@@ -1,4 +1,5 @@
 @smoke @sanity @regression
+@issue 152
 Feature: Search a Product
     As a end user
     I will search for a product

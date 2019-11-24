@@ -8,7 +8,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.List;
 
@@ -18,6 +17,8 @@ import java.util.List;
  * </p>
  */
 public class LinkChecks extends BaseUIPageObject {
+
+
 
     /**
      * This methods get all the href attributes by tag name "a"
