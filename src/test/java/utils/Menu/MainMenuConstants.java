@@ -1,4 +1,4 @@
-package com.automationtests.Menu;
+package utils.Menu;
 
 /**
  * <P>
