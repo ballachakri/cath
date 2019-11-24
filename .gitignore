@@ -1,4 +1,8 @@
-.idea/
-target/
+*.git
+*.class
+*.log
 *.json
-*.html
+*.png
+*.txt
+workspace.xml
+target/
