@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0676d69d-37db-4314-8edf-9d8d45876ca7" name="Default Changelist" comment="" />
+    <list default="true" id="0676d69d-37db-4314-8edf-9d8d45876ca7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automationtests/Menu/MainCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automationtests/Menu/MainCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automationtests/Menu/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automationtests/Menu/MainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/configurations/BaseUIPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/configurationsbase/BaseUIPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/configurations/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/configurationsbase/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/FailedTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/FailedTestCases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/LinkChecks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/LinkChecks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/WaitsForUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/WaitsForUI.java" afterDir="false" />
+    </list>
+
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +43,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/mysql-connector-java-5.12/mysql-connector-java-5.1.42/mysql-connector-java-5.1.42-bin.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -80,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkChecks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="utils.LinkChecks" />
+    <configuration name="DatabaseConnection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Important_Java_Topics.DatabaseConnection" />
       <module name="cath" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="utils.*" />
+          <option name="PATTERN" value="Important_Java_Topics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyUrl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Important_Java_Topics.MyUrl" />
+    <configuration name="LinkChecks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utils.LinkChecks" />
       <module name="cath" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.automationtests.dbTest.*" />
+          <option name="PATTERN" value="utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,10 +143,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Application.DatabaseConnection" />
         <item itemvalue="Application.CountryDataBaseTest" />
         <item itemvalue="Application.SystemPropertiesJava" />
         <item itemvalue="Application.LinkChecks" />
-        <item itemvalue="Application.MyUrl" />
       </list>
     </recent_temporary>
   </component>

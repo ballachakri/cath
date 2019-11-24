@@ -1,4 +1,4 @@
-package configurations;
+package configurationsbase;
 
 import io.github.bonigarcia.wdm.*;
 import org.openqa.selenium.WebDriver;

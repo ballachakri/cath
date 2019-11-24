@@ -1,6 +1,6 @@
 package utils;
 
-import configurations.BaseUIPageObject;
+import configurationsbase.BaseUIPageObject;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.io.FileHandler;
