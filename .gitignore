@@ -4,5 +4,5 @@
 *.json
 *.png
 *.txt
-workspace.xml
+.idea/workspace.xml
 target/
