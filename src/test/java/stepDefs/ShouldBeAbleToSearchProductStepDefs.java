@@ -12,7 +12,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalToIgnoringCase;
 import static org.hamcrest.Matchers.equalToIgnoringWhiteSpace;
 
-public class ShouldBeAbleToSearchProduct {
+public class ShouldBeAbleToSearchProductStepDefs {
     private HomePage homePage;
     private String searchProduct;
 
@@ -30,8 +30,9 @@ public class ShouldBeAbleToSearchProduct {
 
     @Then("I should view all the relevant products")
     public void i_should_view_all_the_relevant_products() {
+
        assertThat("Wrong search results are displayed, please investigate",
-                homePage.getSearchResultTitle(), equalToIgnoringCase(searchProduct));
+                homePage.getCurrentPageTitle(), equalToIgnoringCase(searchProduct));
  }
 
 }

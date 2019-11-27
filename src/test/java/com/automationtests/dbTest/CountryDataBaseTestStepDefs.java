@@ -19,7 +19,7 @@ import static org.hamcrest.core.IsCollectionContaining.hasItem;
  * methods should be called in this step definition class and assert.
  * Note: no need of @before and @after methods to invoked.
  */
-public class CountryDataBaseTest {
+public class CountryDataBaseTestStepDefs {
 
     private Connection con = null;
     private Statement statement = null;

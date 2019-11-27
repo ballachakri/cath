@@ -14,13 +14,17 @@ import java.util.concurrent.TimeUnit;
 public class ExecutionTime
 {
     public static void main(String[] args) throws InterruptedException {
-        systemCurrentTime();
-        systemNanoTime();
-        instantClass();
+        /**
+         * Three ways
+         */
+
+        System_CurrentTime();
+        System_NanoTime();
+        Instant_Class();
 
     }
 
-    static void systemCurrentTime() throws InterruptedException {
+    static void System_CurrentTime() throws InterruptedException {
 // using the System.currentTimeMillis().
         long start=System.currentTimeMillis();
         Thread.sleep(2500);
@@ -31,7 +35,7 @@ public class ExecutionTime
     }
 
 
-    static void systemNanoTime() throws InterruptedException {
+    static void System_NanoTime() throws InterruptedException {
 // using the System.nanoTime().
      long start=System.nanoTime();
      Thread.sleep(3000);
@@ -44,7 +48,7 @@ public class ExecutionTime
 
     }
 
-    static void instantClass() throws InterruptedException {
+    static void Instant_Class() throws InterruptedException {
 // using the Instant Class now method.
         Instant start=Instant.now();
         Thread.sleep(4500);

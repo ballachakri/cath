@@ -1,4 +1,4 @@
-package utils.Menu;
+package com.Menu;
 
 import configurationsbase.BaseUIPageObject;
 import org.openqa.selenium.WebElement;
@@ -13,11 +13,11 @@ import java.util.List;
 public class MainMenu extends BaseUIPageObject {
 
     @FindBy(css = "div[id='header_stripe'] ul[class='sub_navigation'] li")
-    private List<WebElement> topLevelMenu;
+    private static List<WebElement> topLevelMenu;
 
-    public MainMenu() {
-       PageFactory.initElements(driver, this);
-    }
+//    public MainMenu() {
+//       PageFactory.initElements(driver, this);
+//    }
 
     /**
      * <p>
@@ -25,10 +25,12 @@ public class MainMenu extends BaseUIPageObject {
      * </p>
      * @param menu
      */
-    public void getTopLevelMenu(String menu) {
+    public static void getTopLevelMenu(String menu) {
 
         for (WebElement topMenu : topLevelMenu) {
             String elementText = topMenu.getText();
+
+            System.out.println(elementText);
 
             try {
                 Thread.sleep(1000);

@@ -1,4 +1,4 @@
-package utils.Menu;
+package com.Menu;
 
 public enum CategoryConstants {
 

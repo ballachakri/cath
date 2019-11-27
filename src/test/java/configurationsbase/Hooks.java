@@ -33,7 +33,6 @@ public class Hooks extends BaseUIPageObject {
         setUpBrowser(TEST_ENVIRONMENT);
         //setUpGrid(TEST_ENVIRONMENT);
         maximizeBrowser();
-        System.out.println("need to change and implement data base testing.......................................@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@!");
         log.info("Browser Launched........................................!");
         log.info("checking the feature branches in git ....................................................");
     }
