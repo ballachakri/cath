@@ -3,11 +3,277 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2019-11-27T17:42:53.357Z",
+        "start_timestamp": "2019-12-01T17:35:50.645Z",
         "before": [
           {
             "result": {
-              "duration": 14786489600,
+              "duration": 29172214601,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUpHomePage()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Search for countries in given continent",
+        "description": "",
+        "id": "search-for-the-countries;search-for-countries-in-given-continent",
+        "after": [
+          {
+            "result": {
+              "duration": 1192525100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9960702099,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have a database",
+            "match": {
+              "location": "CountryDataBaseTestStepDefs.i_have_a_database()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 632251700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the continent name \"Asia\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Asia\"",
+                  "offset": 27
+                }
+              ],
+              "location": "CountryDataBaseTestStepDefs.i_enter_the_continent_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10524800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should view the countries in the continent",
+            "match": {
+              "location": "CountryDataBaseTestStepDefs.i_should_view_the_countries_in_the_continent()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search for the countries",
+    "description": "",
+    "id": "search-for-the-countries",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/resources/DataBaseTest.feature",
+    "tags": []
+  },
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2019-12-01T17:36:31.653Z",
+        "before": [
+          {
+            "result": {
+              "duration": 16492975100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUpHomePage()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Links validations",
+        "description": "",
+        "id": "all-home-page-links-validation;links-validations",
+        "after": [
+          {
+            "result": {
+              "duration": 1641813901,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1815935100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the HOME Page",
+            "match": {
+              "location": "MenuMenuValidationsStepDefs.i_am_on_the_HOME_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 437700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The home page is loaded",
+            "match": {
+              "location": "LinksValidation.the_home_page_is_loaded()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 86171633000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be able view all the links",
+            "match": {
+              "location": "LinksValidation.i_should_be_able_view_all_the_links()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@links"
+          }
+        ]
+      }
+    ],
+    "name": "All Home page Links validation",
+    "description": "",
+    "id": "all-home-page-links-validation",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/resources/LinkValidations.feature",
+    "tags": [
+      {
+        "name": "@links",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-12-01T17:38:17.787Z",
+        "before": [
+          {
+            "result": {
+              "duration": 20760603800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUpHomePage()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "User should be able to search a Product",
+        "description": "",
+        "id": "search-a-product;user-should-be-able-to-search-a-product;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 4307682999,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 300441500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on the home page",
+            "match": {
+              "location": "ShouldBeAbleToSearchProductStepDefs.i_am_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3929365800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I search for a product \"shirt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"shirt\"",
+                  "offset": 23
+                }
+              ],
+              "location": "ShouldBeAbleToSearchProductStepDefs.i_search_for_a_product(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 267539900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should view all the relevant products",
+            "match": {
+              "location": "ShouldBeAbleToSearchProductStepDefs.i_should_view_all_the_relevant_products()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@sanity"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-12-01T17:38:47.367Z",
+        "before": [
+          {
+            "result": {
+              "duration": 19345413100,
               "status": "passed"
             },
             "match": {
@@ -16,13 +282,13 @@
           }
         ],
         "line": 15,
-        "name": "Should be able to navigate to appropriate page",
+        "name": "User should be able to search a Product",
         "description": "",
-        "id": "to-verify-the-main-menu-links;should-be-able-to-navigate-to-appropriate-page;;2",
+        "id": "search-a-product;user-should-be-able-to-search-a-product;;3",
         "after": [
           {
             "result": {
-              "duration": 4843943500,
+              "duration": 192325799,
               "status": "passed"
             },
             "match": {
@@ -35,60 +301,65 @@
         "steps": [
           {
             "result": {
-              "duration": 377638000,
+              "duration": 380093200,
               "status": "passed"
             },
             "line": 8,
-            "name": "I am on the HOME Page",
+            "name": "I am on the home page",
             "match": {
-              "location": "MenuMenuValidationsStepDefs.i_am_on_the_HOME_Page()"
+              "location": "ShouldBeAbleToSearchProductStepDefs.i_am_on_the_home_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 3344364300,
+              "duration": 4171646801,
               "status": "passed"
             },
             "line": 9,
-            "name": "I click/tap on the main menu link \"STUDENTS\"",
+            "name": "I search for a product \"bag\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"STUDENTS\"",
-                  "offset": 34
+                  "val": "\"bag\"",
+                  "offset": 23
                 }
               ],
-              "location": "MenuMenuValidationsStepDefs.i_click_tap_on_the_main_menu_link(String)"
+              "location": "ShouldBeAbleToSearchProductStepDefs.i_search_for_a_product(String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: Navigated to wrong page, please investigate\nExpected: a string containing \"STUDENTS\"\n     but: was \"https://www.cathkidston.com/students/content/fcp-content\"\r\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\r\n\tat stepDefs.MenuMenuValidationsStepDefs.i_should_be_able_to_land_on_the_corresponding_page(MenuMenuValidationsStepDefs.java:34)\r\n\tat ✽.I should be able to land on the corresponding page(file:src/test/java/resources/MenuValidation.feature:10)\r\n",
-              "duration": 35783900,
-              "status": "failed"
+              "duration": 89090700,
+              "status": "passed"
             },
             "line": 10,
-            "name": "I should be able to land on the corresponding page",
+            "name": "I should view all the relevant products",
             "match": {
-              "location": "MenuMenuValidationsStepDefs.i_should_be_able_to_land_on_the_corresponding_page()"
+              "location": "ShouldBeAbleToSearchProductStepDefs.i_should_view_all_the_relevant_products()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@verify"
+            "name": "@smoke"
+          },
+          {
+            "name": "@sanity"
+          },
+          {
+            "name": "@regression"
           }
         ]
       },
       {
-        "start_timestamp": "2019-11-27T17:43:16.793Z",
+        "start_timestamp": "2019-12-01T17:39:11.549Z",
         "before": [
           {
             "result": {
-              "duration": 12314327100,
+              "duration": 17400550999,
               "status": "passed"
             },
             "match": {
@@ -97,13 +368,13 @@
           }
         ],
         "line": 16,
-        "name": "Should be able to navigate to appropriate page",
+        "name": "User should be able to search a Product",
         "description": "",
-        "id": "to-verify-the-main-menu-links;should-be-able-to-navigate-to-appropriate-page;;3",
+        "id": "search-a-product;user-should-be-able-to-search-a-product;;4",
         "after": [
           {
             "result": {
-              "duration": 4581174600,
+              "duration": 572350000,
               "status": "passed"
             },
             "match": {
@@ -116,60 +387,65 @@
         "steps": [
           {
             "result": {
-              "duration": 333041400,
+              "duration": 545607200,
               "status": "passed"
             },
             "line": 8,
-            "name": "I am on the HOME Page",
+            "name": "I am on the home page",
             "match": {
-              "location": "MenuMenuValidationsStepDefs.i_am_on_the_HOME_Page()"
+              "location": "ShouldBeAbleToSearchProductStepDefs.i_am_on_the_home_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 4006328000,
+              "duration": 5132909300,
               "status": "passed"
             },
             "line": 9,
-            "name": "I click/tap on the main menu link \"GIFT CARD BALANCE\"",
+            "name": "I search for a product \"shoe\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"GIFT CARD BALANCE\"",
-                  "offset": 34
+                  "val": "\"shoe\"",
+                  "offset": 23
                 }
               ],
-              "location": "MenuMenuValidationsStepDefs.i_click_tap_on_the_main_menu_link(String)"
+              "location": "ShouldBeAbleToSearchProductStepDefs.i_search_for_a_product(String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: Navigated to wrong page, please investigate\nExpected: a string containing \"GIFT CARD BALANCE\"\n     but: was \"https://www.cathkidston.com/giftcardbalance/balance/fcp-content\"\r\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\r\n\tat stepDefs.MenuMenuValidationsStepDefs.i_should_be_able_to_land_on_the_corresponding_page(MenuMenuValidationsStepDefs.java:34)\r\n\tat ✽.I should be able to land on the corresponding page(file:src/test/java/resources/MenuValidation.feature:10)\r\n",
-              "duration": 18068700,
-              "status": "failed"
+              "duration": 66670699,
+              "status": "passed"
             },
             "line": 10,
-            "name": "I should be able to land on the corresponding page",
+            "name": "I should view all the relevant products",
             "match": {
-              "location": "MenuMenuValidationsStepDefs.i_should_be_able_to_land_on_the_corresponding_page()"
+              "location": "ShouldBeAbleToSearchProductStepDefs.i_should_view_all_the_relevant_products()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@verify"
+            "name": "@smoke"
+          },
+          {
+            "name": "@sanity"
+          },
+          {
+            "name": "@regression"
           }
         ]
       },
       {
-        "start_timestamp": "2019-11-27T17:43:38.053Z",
+        "start_timestamp": "2019-12-01T17:39:35.270Z",
         "before": [
           {
             "result": {
-              "duration": 12341661600,
+              "duration": 25783473999,
               "status": "passed"
             },
             "match": {
@@ -178,13 +454,13 @@
           }
         ],
         "line": 17,
-        "name": "Should be able to navigate to appropriate page",
+        "name": "User should be able to search a Product",
         "description": "",
-        "id": "to-verify-the-main-menu-links;should-be-able-to-navigate-to-appropriate-page;;4",
+        "id": "search-a-product;user-should-be-able-to-search-a-product;;5",
         "after": [
           {
             "result": {
-              "duration": 4842422600,
+              "duration": 324557900,
               "status": "passed"
             },
             "match": {
@@ -197,229 +473,88 @@
         "steps": [
           {
             "result": {
-              "duration": 315921800,
+              "duration": 1064127700,
               "status": "passed"
             },
             "line": 8,
-            "name": "I am on the HOME Page",
+            "name": "I am on the home page",
             "match": {
-              "location": "MenuMenuValidationsStepDefs.i_am_on_the_HOME_Page()"
+              "location": "ShouldBeAbleToSearchProductStepDefs.i_am_on_the_home_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 4329521800,
+              "duration": 8859379999,
               "status": "passed"
             },
             "line": 9,
-            "name": "I click/tap on the main menu link \"STORE FINDER\"",
+            "name": "I search for a product \"skirt\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"STORE FINDER\"",
-                  "offset": 34
+                  "val": "\"skirt\"",
+                  "offset": 23
                 }
               ],
-              "location": "MenuMenuValidationsStepDefs.i_click_tap_on_the_main_menu_link(String)"
+              "location": "ShouldBeAbleToSearchProductStepDefs.i_search_for_a_product(String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: Navigated to wrong page, please investigate\nExpected: a string containing \"STORE FINDER\"\n     but: was \"https://www.cathkidston.com/pws/StoreFinder.ice\"\r\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\r\n\tat stepDefs.MenuMenuValidationsStepDefs.i_should_be_able_to_land_on_the_corresponding_page(MenuMenuValidationsStepDefs.java:34)\r\n\tat ✽.I should be able to land on the corresponding page(file:src/test/java/resources/MenuValidation.feature:10)\r\n",
-              "duration": 17154800,
-              "status": "failed"
+              "duration": 72601501,
+              "status": "passed"
             },
             "line": 10,
-            "name": "I should be able to land on the corresponding page",
+            "name": "I should view all the relevant products",
             "match": {
-              "location": "MenuMenuValidationsStepDefs.i_should_be_able_to_land_on_the_corresponding_page()"
+              "location": "ShouldBeAbleToSearchProductStepDefs.i_should_view_all_the_relevant_products()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@verify"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2019-11-27T17:43:59.908Z",
-        "before": [
-          {
-            "result": {
-              "duration": 13597684200,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.setUpHomePage()"
-            }
-          }
-        ],
-        "line": 18,
-        "name": "Should be able to navigate to appropriate page",
-        "description": "",
-        "id": "to-verify-the-main-menu-links;should-be-able-to-navigate-to-appropriate-page;;5",
-        "after": [
-          {
-            "result": {
-              "duration": 4838964300,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.tearDown(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 285922100,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I am on the HOME Page",
-            "match": {
-              "location": "MenuMenuValidationsStepDefs.i_am_on_the_HOME_Page()"
-            },
-            "keyword": "Given "
+            "name": "@smoke"
           },
           {
-            "result": {
-              "duration": 5520819000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "I click/tap on the main menu link \"LOGIN/REGISTER\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"LOGIN/REGISTER\"",
-                  "offset": 34
-                }
-              ],
-              "location": "MenuMenuValidationsStepDefs.i_click_tap_on_the_main_menu_link(String)"
-            },
-            "keyword": "When "
+            "name": "@sanity"
           },
           {
-            "result": {
-              "error_message": "java.lang.AssertionError: Navigated to wrong page, please investigate\nExpected: a string containing \"LOGIN/REGISTER\"\n     but: was \"https://www.cathkidston.com/pws/secure/ManageAccount.ice\"\r\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\r\n\tat stepDefs.MenuMenuValidationsStepDefs.i_should_be_able_to_land_on_the_corresponding_page(MenuMenuValidationsStepDefs.java:34)\r\n\tat ✽.I should be able to land on the corresponding page(file:src/test/java/resources/MenuValidation.feature:10)\r\n",
-              "duration": 18670900,
-              "status": "failed"
-            },
-            "line": 10,
-            "name": "I should be able to land on the corresponding page",
-            "match": {
-              "location": "MenuMenuValidationsStepDefs.i_should_be_able_to_land_on_the_corresponding_page()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@verify"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2019-11-27T17:44:24.176Z",
-        "before": [
-          {
-            "result": {
-              "duration": 12139416400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.setUpHomePage()"
-            }
-          }
-        ],
-        "line": 19,
-        "name": "Should be able to navigate to appropriate page",
-        "description": "",
-        "id": "to-verify-the-main-menu-links;should-be-able-to-navigate-to-appropriate-page;;6",
-        "after": [
-          {
-            "result": {
-              "duration": 4855637900,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.tearDown(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 286699200,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I am on the HOME Page",
-            "match": {
-              "location": "MenuMenuValidationsStepDefs.i_am_on_the_HOME_Page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 5296622000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "I click/tap on the main menu link \"GBP\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"GBP\"",
-                  "offset": 34
-                }
-              ],
-              "location": "MenuMenuValidationsStepDefs.i_click_tap_on_the_main_menu_link(String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "error_message": "java.lang.AssertionError: Navigated to wrong page, please investigate\nExpected: a string containing \"GBP\"\n     but: was \"https://www.cathkidston.com/\"\r\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\r\n\tat stepDefs.MenuMenuValidationsStepDefs.i_should_be_able_to_land_on_the_corresponding_page(MenuMenuValidationsStepDefs.java:34)\r\n\tat ✽.I should be able to land on the corresponding page(file:src/test/java/resources/MenuValidation.feature:10)\r\n",
-              "duration": 14046300,
-              "status": "failed"
-            },
-            "line": 10,
-            "name": "I should be able to land on the corresponding page",
-            "match": {
-              "location": "MenuMenuValidationsStepDefs.i_should_be_able_to_land_on_the_corresponding_page()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@verify"
+            "name": "@regression"
           }
         ]
       }
     ],
-    "name": "TO VERIFY THE MAIN MENU LINKS",
-    "description": "    As a end user\n    I will click on the main menu links\n    Then i should view the relevant web page",
-    "id": "to-verify-the-main-menu-links",
+    "name": "Search a Product",
+    "description": "    As a end user\n    I will search for a product\n    I should be able view all the relevant products",
+    "id": "search-a-product",
     "keyword": "Feature",
-    "uri": "file:src/test/java/resources/MenuValidation.feature",
+    "uri": "file:src/test/java/resources/ShouldBeAbleToSearchProduct.feature",
     "tags": [
       {
-        "name": "@verify",
+        "name": "@smoke",
         "type": "Tag",
         "location": {
           "line": 1,
           "column": 1
+        }
+      },
+      {
+        "name": "@sanity",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 8
+        }
+      },
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 16
         }
       }
     ]

@@ -1,4 +1,4 @@
-@verify
+@menu
 Feature: TO VERIFY THE MAIN MENU LINKS
     As a end user
     I will click on the main menu links

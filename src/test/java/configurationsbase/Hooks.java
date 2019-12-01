@@ -27,7 +27,7 @@ public class Hooks extends BaseUIPageObject {
         BasicConfigurator.configure();
 
         /**
-         * configure the log4j property file to append the reporting files
+         * configure the log4j pr0operty file to append the reporting files
          */
         PropertyConfigurator.configure("log4j.properties");
         setUpBrowser(TEST_ENVIRONMENT);

@@ -1,29 +1,139 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/java/resources/MenuValidation.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/java/resources/DataBaseTest.feature");
 formatter.feature({
-  "name": "TO VERIFY THE MAIN MENU LINKS",
-  "description": "    As a end user\n    I will click on the main menu links\n    Then i should view the relevant web page",
+  "name": "Search for the countries",
+  "description": "",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "name": "Search for countries in given continent",
+  "description": "",
+  "keyword": "Scenario"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I have a database",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "CountryDataBaseTestStepDefs.i_have_a_database()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I enter the continent name \"Asia\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "CountryDataBaseTestStepDefs.i_enter_the_continent_name(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should view the countries in the continent",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "CountryDataBaseTestStepDefs.i_should_view_the_countries_in_the_continent()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.uri("file:src/test/java/resources/LinkValidations.feature");
+formatter.feature({
+  "name": "All Home page Links validation",
+  "description": "",
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@verify"
+      "name": "@links"
     }
   ]
 });
-formatter.scenarioOutline({
-  "name": "Should be able to navigate to appropriate page",
+formatter.scenario({
+  "name": "Links validations",
   "description": "",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@links"
+    }
+  ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "I am on the HOME Page",
   "keyword": "Given "
 });
+formatter.match({
+  "location": "MenuMenuValidationsStepDefs.i_am_on_the_HOME_Page()"
+});
+formatter.result({
+  "status": "passed"
+});
 formatter.step({
-  "name": "I click/tap on the main menu link \"\u003cmainMenu\u003e\"",
+  "name": "The home page is loaded",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "LinksValidation.the_home_page_is_loaded()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should be able view all the links",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "LinksValidation.i_should_be_able_view_all_the_links()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.uri("file:src/test/java/resources/ShouldBeAbleToSearchProduct.feature");
+formatter.feature({
+  "name": "Search a Product",
+  "description": "    As a end user\n    I will search for a product\n    I should be able view all the relevant products",
+  "keyword": "Feature",
+  "tags": [
+    {
+      "name": "@smoke"
+    },
+    {
+      "name": "@sanity"
+    },
+    {
+      "name": "@regression"
+    }
+  ]
+});
+formatter.scenarioOutline({
+  "name": "User should be able to search a Product",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "I am on the home page",
+  "keyword": "Given "
+});
+formatter.step({
+  "name": "I search for a product \"\u003cproduct\u003e\"",
   "keyword": "When "
 });
 formatter.step({
-  "name": "I should be able to land on the corresponding page",
+  "name": "I should view all the relevant products",
   "keyword": "Then "
 });
 formatter.examples({
@@ -33,43 +143,44 @@ formatter.examples({
   "rows": [
     {
       "cells": [
-        "mainMenu"
+        "product"
       ]
     },
     {
       "cells": [
-        "STUDENTS"
+        "shirt"
       ]
     },
     {
       "cells": [
-        "GIFT CARD BALANCE"
+        "bag"
       ]
     },
     {
       "cells": [
-        "STORE FINDER"
+        "shoe"
       ]
     },
     {
       "cells": [
-        "LOGIN/REGISTER"
-      ]
-    },
-    {
-      "cells": [
-        "GBP"
+        "skirt"
       ]
     }
   ]
 });
 formatter.scenario({
-  "name": "Should be able to navigate to appropriate page",
+  "name": "User should be able to search a Product",
   "description": "",
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@verify"
+      "name": "@smoke"
+    },
+    {
+      "name": "@sanity"
+    },
+    {
+      "name": "@regression"
     }
   ]
 });
@@ -77,46 +188,51 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "I am on the HOME Page",
+  "name": "I am on the home page",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "MenuMenuValidationsStepDefs.i_am_on_the_HOME_Page()"
+  "location": "ShouldBeAbleToSearchProductStepDefs.i_am_on_the_home_page()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I click/tap on the main menu link \"STUDENTS\"",
+  "name": "I search for a product \"shirt\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "MenuMenuValidationsStepDefs.i_click_tap_on_the_main_menu_link(String)"
+  "location": "ShouldBeAbleToSearchProductStepDefs.i_search_for_a_product(String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I should be able to land on the corresponding page",
+  "name": "I should view all the relevant products",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "MenuMenuValidationsStepDefs.i_should_be_able_to_land_on_the_corresponding_page()"
+  "location": "ShouldBeAbleToSearchProductStepDefs.i_should_view_all_the_relevant_products()"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError: Navigated to wrong page, please investigate\nExpected: a string containing \"STUDENTS\"\n     but: was \"https://www.cathkidston.com/students/content/fcp-content\"\r\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\r\n\tat stepDefs.MenuMenuValidationsStepDefs.i_should_be_able_to_land_on_the_corresponding_page(MenuMenuValidationsStepDefs.java:34)\r\n\tat ✽.I should be able to land on the corresponding page(file:src/test/java/resources/MenuValidation.feature:10)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.after({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Should be able to navigate to appropriate page",
+  "name": "User should be able to search a Product",
   "description": "",
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@verify"
+      "name": "@smoke"
+    },
+    {
+      "name": "@sanity"
+    },
+    {
+      "name": "@regression"
     }
   ]
 });
@@ -124,46 +240,51 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "I am on the HOME Page",
+  "name": "I am on the home page",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "MenuMenuValidationsStepDefs.i_am_on_the_HOME_Page()"
+  "location": "ShouldBeAbleToSearchProductStepDefs.i_am_on_the_home_page()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I click/tap on the main menu link \"GIFT CARD BALANCE\"",
+  "name": "I search for a product \"bag\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "MenuMenuValidationsStepDefs.i_click_tap_on_the_main_menu_link(String)"
+  "location": "ShouldBeAbleToSearchProductStepDefs.i_search_for_a_product(String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I should be able to land on the corresponding page",
+  "name": "I should view all the relevant products",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "MenuMenuValidationsStepDefs.i_should_be_able_to_land_on_the_corresponding_page()"
+  "location": "ShouldBeAbleToSearchProductStepDefs.i_should_view_all_the_relevant_products()"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError: Navigated to wrong page, please investigate\nExpected: a string containing \"GIFT CARD BALANCE\"\n     but: was \"https://www.cathkidston.com/giftcardbalance/balance/fcp-content\"\r\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\r\n\tat stepDefs.MenuMenuValidationsStepDefs.i_should_be_able_to_land_on_the_corresponding_page(MenuMenuValidationsStepDefs.java:34)\r\n\tat ✽.I should be able to land on the corresponding page(file:src/test/java/resources/MenuValidation.feature:10)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.after({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Should be able to navigate to appropriate page",
+  "name": "User should be able to search a Product",
   "description": "",
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@verify"
+      "name": "@smoke"
+    },
+    {
+      "name": "@sanity"
+    },
+    {
+      "name": "@regression"
     }
   ]
 });
@@ -171,46 +292,51 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "I am on the HOME Page",
+  "name": "I am on the home page",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "MenuMenuValidationsStepDefs.i_am_on_the_HOME_Page()"
+  "location": "ShouldBeAbleToSearchProductStepDefs.i_am_on_the_home_page()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I click/tap on the main menu link \"STORE FINDER\"",
+  "name": "I search for a product \"shoe\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "MenuMenuValidationsStepDefs.i_click_tap_on_the_main_menu_link(String)"
+  "location": "ShouldBeAbleToSearchProductStepDefs.i_search_for_a_product(String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I should be able to land on the corresponding page",
+  "name": "I should view all the relevant products",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "MenuMenuValidationsStepDefs.i_should_be_able_to_land_on_the_corresponding_page()"
+  "location": "ShouldBeAbleToSearchProductStepDefs.i_should_view_all_the_relevant_products()"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError: Navigated to wrong page, please investigate\nExpected: a string containing \"STORE FINDER\"\n     but: was \"https://www.cathkidston.com/pws/StoreFinder.ice\"\r\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\r\n\tat stepDefs.MenuMenuValidationsStepDefs.i_should_be_able_to_land_on_the_corresponding_page(MenuMenuValidationsStepDefs.java:34)\r\n\tat ✽.I should be able to land on the corresponding page(file:src/test/java/resources/MenuValidation.feature:10)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.after({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Should be able to navigate to appropriate page",
+  "name": "User should be able to search a Product",
   "description": "",
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@verify"
+      "name": "@smoke"
+    },
+    {
+      "name": "@sanity"
+    },
+    {
+      "name": "@regression"
     }
   ]
 });
@@ -218,82 +344,34 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "I am on the HOME Page",
+  "name": "I am on the home page",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "MenuMenuValidationsStepDefs.i_am_on_the_HOME_Page()"
+  "location": "ShouldBeAbleToSearchProductStepDefs.i_am_on_the_home_page()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I click/tap on the main menu link \"LOGIN/REGISTER\"",
+  "name": "I search for a product \"skirt\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "MenuMenuValidationsStepDefs.i_click_tap_on_the_main_menu_link(String)"
+  "location": "ShouldBeAbleToSearchProductStepDefs.i_search_for_a_product(String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I should be able to land on the corresponding page",
+  "name": "I should view all the relevant products",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "MenuMenuValidationsStepDefs.i_should_be_able_to_land_on_the_corresponding_page()"
-});
-formatter.result({
-  "error_message": "java.lang.AssertionError: Navigated to wrong page, please investigate\nExpected: a string containing \"LOGIN/REGISTER\"\n     but: was \"https://www.cathkidston.com/pws/secure/ManageAccount.ice\"\r\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\r\n\tat stepDefs.MenuMenuValidationsStepDefs.i_should_be_able_to_land_on_the_corresponding_page(MenuMenuValidationsStepDefs.java:34)\r\n\tat ✽.I should be able to land on the corresponding page(file:src/test/java/resources/MenuValidation.feature:10)\r\n",
-  "status": "failed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "Should be able to navigate to appropriate page",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@verify"
-    }
-  ]
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I am on the HOME Page",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "MenuMenuValidationsStepDefs.i_am_on_the_HOME_Page()"
+  "location": "ShouldBeAbleToSearchProductStepDefs.i_should_view_all_the_relevant_products()"
 });
 formatter.result({
   "status": "passed"
-});
-formatter.step({
-  "name": "I click/tap on the main menu link \"GBP\"",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "MenuMenuValidationsStepDefs.i_click_tap_on_the_main_menu_link(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I should be able to land on the corresponding page",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "MenuMenuValidationsStepDefs.i_should_be_able_to_land_on_the_corresponding_page()"
-});
-formatter.result({
-  "error_message": "java.lang.AssertionError: Navigated to wrong page, please investigate\nExpected: a string containing \"GBP\"\n     but: was \"https://www.cathkidston.com/\"\r\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\r\n\tat stepDefs.MenuMenuValidationsStepDefs.i_should_be_able_to_land_on_the_corresponding_page(MenuMenuValidationsStepDefs.java:34)\r\n\tat ✽.I should be able to land on the corresponding page(file:src/test/java/resources/MenuValidation.feature:10)\r\n",
-  "status": "failed"
 });
 formatter.after({
   "status": "passed"

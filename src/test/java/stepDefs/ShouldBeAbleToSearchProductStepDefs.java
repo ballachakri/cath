@@ -32,7 +32,7 @@ public class ShouldBeAbleToSearchProductStepDefs {
     public void i_should_view_all_the_relevant_products() {
 
        assertThat("Wrong search results are displayed, please investigate",
-                homePage.getCurrentPageTitle(), equalToIgnoringCase(searchProduct));
+                homePage.getSearchResultTitle(), equalToIgnoringCase(searchProduct));
  }
 
 }

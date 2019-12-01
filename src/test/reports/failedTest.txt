@@ -1,1 +1,0 @@
-file:src/test/java/resources/MenuValidation.feature:15:16:17:18:19

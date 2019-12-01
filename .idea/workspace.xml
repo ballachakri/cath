@@ -2,44 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0676d69d-37db-4314-8edf-9d8d45876ca7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Important_Java_Topics/Iterator_ListIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Important_Java_Topics/MapSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjects/Students.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/LinkValidations.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Important_Java_Topics/ExecutionTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Important_Java_Topics/ExecutionTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Important_Java_Topics/IOFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Important_Java_Topics/IOFiles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Log4jLogs/application.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Log4jLogs/application.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Log4jLogs/testlog.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Log4jLogs/testlog.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Log4jLogs/testlog1.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Log4jLogs/testlog1.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automationtests/dbTest/CountryDataBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automationtests/dbTest/CountryDataBaseTestStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automationtests/apiTest/JacksonAPIs.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/configurationsbase/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/configurationsbase/Hooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/Students.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/Students.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/resources/DataBaseTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/DataBaseTest.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/ShouldBeAbleToSearchProduct.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/ShouldBeAbleToSearchProduct.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefs/ShouldBeAbleToSearchProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefs/ShouldBeAbleToSearchProductStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Menu/CategoryConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Menu/CategoryConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Menu/MainCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Menu/MainCategory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Menu/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Menu/MainMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Menu/MainMenuConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Menu/MainMenuConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Menu/SubCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Menu/SubCategory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/WaitsForUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/WaitsForUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/MenuValidation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/MenuValidation.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefs/MenuMenuValidationsStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefs/MenuMenuValidationsStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefs/ShouldBeAbleToSearchProductStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefs/ShouldBeAbleToSearchProductStepDefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/reports/cath.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/reports/cath.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/reports/failedTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/reports/failedTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/reports/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cath-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/cath-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Important_Java_Topics/ExecutionTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Important_Java_Topics/ExecutionTime.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/cath.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cath-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Important_Java_Topics/IOFiles.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Important_Java_Topics/IOFiles.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestRunner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestRunner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestRunner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestRunner.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/automationtests/dbTest/CountryDataBaseTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefs/ShouldBeAbleToSearchProduct.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/WaitsForUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/WaitsForUI.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,8 +43,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Substep Feature" />
+        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="Substep Feature" />
       </list>
     </option>
   </component>
@@ -107,12 +100,12 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.TestRunner">
-    <configuration name="ArrayToArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Important_Java_Topics.ArrayToArrayList" />
+    <configuration name="File1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Important_Java_Topics.IO_Files_Reader_Stream.File1" />
       <module name="cath" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Important_Java_Topics.*" />
+          <option name="PATTERN" value="Important_Java_Topics.IO_Files_Reader_Stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Iterator_ListIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Important_Java_Topics.Iterator_ListIterator" />
+    <configuration name="IOFiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Important_Java_Topics.IOFiles" />
       <module name="cath" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Important_Java_Topics.*" />
+          <option name="PATTERN" value="Important_Java_Topics.Singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Important_Java_Topics.MapSample" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Important_Java_Topics.Singleton.Main" />
       <module name="cath" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Important_Java_Topics.*" />
+          <option name="PATTERN" value="Important_Java_Topics.Singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintNumberWithGap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Tech_Exercises.PrintNumberWithGap" />
+    <configuration name="ProcessSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Important_Java_Topics.ProcessSample" />
       <module name="cath" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Tech_Exercises.*" />
+          <option name="PATTERN" value="Important_Java_Topics.Singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,10 +164,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestRunner" />
-        <item itemvalue="Application.PrintNumberWithGap" />
-        <item itemvalue="Application.Iterator_ListIterator" />
-        <item itemvalue="Application.ArrayToArrayList" />
-        <item itemvalue="Application.MapSample" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.File1" />
+        <item itemvalue="Application.ProcessSample" />
+        <item itemvalue="Application.IOFiles" />
       </list>
     </recent_temporary>
   </component>

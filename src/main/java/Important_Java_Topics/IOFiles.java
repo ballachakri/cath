@@ -14,7 +14,10 @@ import java.io.*;
 public class IOFiles {
 
     public static void main(String[] args) throws IOException {
-    // f3();
+    f1();
+    f2();
+    f3();
+    r1();
     r2();
 }
 
@@ -25,11 +28,12 @@ public class IOFiles {
      */
 
 private static void f1() throws IOException {
+    File f1=new File("C:\\Users\\sball\\Desktop\\IOSample\\mynewdir");
+    f1.mkdir();
     File f=new File("C:\\Users\\sball\\Desktop\\IOSample\\t1.txt");
     System.out.println(f.exists());
     f.createNewFile();
-    File f1=new File("C:\\Users\\sball\\Desktop\\IOSample\\mynewdir");
-    f1.mkdir();
+
 }
 
     /**

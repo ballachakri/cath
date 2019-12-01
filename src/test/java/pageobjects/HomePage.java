@@ -1,10 +1,20 @@
 package pageobjects;
 
 import configurationsbase.BaseUIPageObject;
+
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import utils.WaitsForUI;
+
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.*;
+
 
 /**
  * <p>
@@ -28,6 +38,8 @@ public class HomePage extends BaseUIPageObject {
     @FindBy(css = "p[class='page_summary'] span:nth-child(1)")
     private WebElement searchResultsTitle;
 
+    @FindBy(css = "a[href]")
+    private List<WebElement> allLinks;
 
     /**
      * This method clears the cookies and notifications.
@@ -36,6 +48,7 @@ public class HomePage extends BaseUIPageObject {
     public void openHomePage() {
         disableNotification();
         killCookies();
+
     }
 
     /**
@@ -70,7 +83,7 @@ public class HomePage extends BaseUIPageObject {
 
         searchTextField.sendKeys(product);
         //or
-       // searchTextField.sendKeys(product, Keys.ENTER);
+        // searchTextField.sendKeys(product, Keys.ENTER);
         return this;
     }
 
@@ -80,9 +93,9 @@ public class HomePage extends BaseUIPageObject {
      * </p>
      */
     public HomePage clickMagnifyingGlassIcon() {
-           searchTextField.sendKeys(Keys.ENTER);
+        searchTextField.sendKeys(Keys.ENTER);
         //new Actions(driver).click(magnifyingGlassIcon).click().build().perform();
-            return this;
+        return this;
     }
 
     /**
@@ -99,14 +112,52 @@ public class HomePage extends BaseUIPageObject {
 
     /**
      * <p>
-     *     This method returns current page title
+     * This method returns current page title
      * </p>
+     *
      * @return
      */
-    public String getCurrentURL() {
+    public String getTheCurrentURL() {
         System.out.println(driver.getCurrentUrl());
         return driver.getCurrentUrl();
     }
 
+    /**
+     * <p>
+     * This methods check for all the links on the home page and return the response dode.
+     * </p>
+     */
+    public Map<Integer, String> getResponseCode() throws IOException {
+        Map<Integer, String> responseCode = new HashMap<Integer, String>();
+
+        BufferedWriter bw= new BufferedWriter(new FileWriter("src/test/zfiles/links.txt"));
+        for (WebElement list : allLinks) {
+            try {
+                URL url = new URL(list.getAttribute("href"));
+                HttpURLConnection hcon = (HttpURLConnection) url.openConnection();
+                hcon.setConnectTimeout(3000);
+                hcon.connect();
+
+                if (hcon.getResponseCode() == 200) {
+                    System.out.println(list.getAttribute("href") + " :  " + hcon.getResponseCode() + " : " + hcon.getResponseMessage());
+                    String str=list.getAttribute("href") + " :  " + hcon.getResponseCode() + " : " + hcon.getResponseMessage();
+                    bw.write(str);
+                    bw.newLine();
+                    responseCode.put(hcon.getResponseCode(), hcon.getResponseMessage());
+                }
+                if (hcon.getResponseCode() == hcon.HTTP_NOT_FOUND) {
+                    System.out.println(list.getAttribute("href") + " :  " + hcon.getResponseCode() + " : " + hcon.getResponseMessage());
+                }
+           //  bw.flush();
+            } catch (MalformedURLException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+        }
+
+        return responseCode;
+    }
 
 }

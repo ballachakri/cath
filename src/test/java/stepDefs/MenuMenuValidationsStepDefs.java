@@ -32,7 +32,7 @@ public class MenuMenuValidationsStepDefs {
     @Then("I should be able to land on the corresponding page")
     public void i_should_be_able_to_land_on_the_corresponding_page() {
         assertThat("Navigated to wrong page, please investigate",
-                homePage.getCurrentURL(), containsString(menu));
+                homePage.getTheCurrentURL(), containsString(menu));
     }
 
 }
