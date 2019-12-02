@@ -5,13 +5,11 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = { "src/test" },
-        tags = {"not @menu"},
+        tags = {"@addCustomer"},
         monochrome = true,
         plugin = {"html:src/test/reports",
                   "json:src/test/reports/cath.json",
-                  "rerun:src/test/reports/failedTest.txt",
-                  "pretty"
-
-                })
+                  "rerun:src/test/reports/FaiLedTestCases/failedTest.txt",
+                  })
 public class TestRunner {
 }

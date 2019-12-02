@@ -2,36 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0676d69d-37db-4314-8edf-9d8d45876ca7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/LinkValidations.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefs/api/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Important_Java_Topics/IOFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Important_Java_Topics/IOFiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grid Execution commands" beforeDir="false" afterPath="$PROJECT_DIR$/Z Concept &amp; Code/Grid Execution commands" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jackson Api Concept" beforeDir="false" afterPath="$PROJECT_DIR$/Z Concept &amp; Code/Jackson Api Concept" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commandLine_Execution" beforeDir="false" afterPath="$PROJECT_DIR$/Z Concept &amp; Code/commandLine_Execution" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Log4jLogs/application.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Log4jLogs/application.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Log4jLogs/testlog.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Log4jLogs/testlog.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Log4jLogs/testlog1.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Log4jLogs/testlog1.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automationtests/apiTest/JacksonAPIs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Menu/CategoryConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Menu/CategoryConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Menu/MainCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Menu/MainCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Menu/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Menu/MainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Menu/MainMenuConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Menu/MainMenuConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Menu/SubCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Menu/SubCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automationtests/dbTest/CountryDataBaseTestStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefs/database/CountryDataBaseTestStepDefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/configurationsbase/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/configurationsbase/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/Students.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/Students.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/DataBaseTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/DataBaseTest.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/MenuValidation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/MenuValidation.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefs/MenuMenuValidationsStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefs/MenuMenuValidationsStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefs/ShouldBeAbleToSearchProductStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefs/ShouldBeAbleToSearchProductStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/DataBaseTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/database/DataBaseTest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/LinkValidations.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/ui/LinkValidations.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/MenuValidation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/ui/MenuValidation.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/ShouldBeAbleToSearchProduct.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/ui/ShouldBeAbleToSearchProduct.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefs/LinksValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefs/ui/LinksValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefs/MenuMenuValidationsStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefs/ui/MenuMenuValidationsStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefs/ShouldBeAbleToSearchProductStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefs/ui/ShouldBeAbleToSearchProductStepDefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/reports/cath.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/reports/cath.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/reports/failedTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/reports/failedTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/reports/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cath-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Important_Java_Topics/IOFiles.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Important_Java_Topics/IOFiles.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestRunner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestRunner.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/HomePage.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,8 +44,8 @@
       <list>
         <option value="Enum" />
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="Substep Feature" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -73,18 +73,22 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\sball\git\cath\src\test\java\com\automationtests" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com" />
       <recent name="com.automationtests" />
+      <recent name="com" />
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\sball\git\cath\src\main\java\Important_Java_Topics" />
       <recent name="C:\Users\sball\git\cath\src\test\java\Z_HamcrestAssertion" />
       <recent name="C:\Users\sball\git\cath\src\test\java\TestData" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sball\git\cath\Z Concept &amp; Code" />
+      <recent name="C:\Users\sball\git\cath\src\test\java\resources\ui" />
+      <recent name="C:\Users\sball\git\cath\src\test\java\resources\database" />
+      <recent name="C:\Users\sball\git\cath\src\test\java\resources\api" />
+      <recent name="C:\Users\sball\git\cath\src\test\java\com\automationtests" />
     </key>
   </component>
   <component name="RunDashboard">

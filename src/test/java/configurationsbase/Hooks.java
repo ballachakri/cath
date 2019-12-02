@@ -15,19 +15,19 @@ public class Hooks extends BaseUIPageObject {
     private String TEST_ENVIRONMENT="https://www.cathkidston.com/";
 
     /**
-     *    initialize Log4j Logger --
+     *    Define a static logger variable so that is reference the Logger instance of class
      */
 
-    final static Logger log= getLogger(Hooks.class);
+    static Logger log= getLogger(Hooks.class);
 
-    @Before
+  //  @Before
     public void setUpHomePage()  {
 
         /** Configure Basic configuration for logging  */
         BasicConfigurator.configure();
 
         /**
-         * configure the log4j pr0operty file to append the reporting files
+         * configure the log4j property file to append the reporting files
          */
         PropertyConfigurator.configure("log4j.properties");
         setUpBrowser(TEST_ENVIRONMENT);
@@ -38,7 +38,7 @@ public class Hooks extends BaseUIPageObject {
     }
 
 
-    @After
+  //  @After
     public void tearDown(Scenario scenario) {
         String name=scenario.getName();
         if(scenario.isFailed()) {

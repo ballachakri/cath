@@ -1,0 +1,46 @@
+package com.automationtests.apiTest;
+
+/**
+ * Jackson API Maven Dependency
+ * JACKSON-CORE and JACKSON-DATABIND
+ *  <dependency>
+ *          <groupId>com.fasterxml.jackson.core</groupId>
+ *          <artifactId>jackson-core</artifactId>
+ *          <version>2.6.3</version>
+ * </dependency>
+ * <dependency>
+ *          <groupId>com.fasterxml.jackson.core</groupId>
+ *          <artifactId>jackson-databind</artifactId>
+ *          <version>2.6.3</version>
+ * </dependency>
+ */
+
+/**
+ * Three ways JSON from java Object
+ * 1. ObjectMapper class
+ * 2. JSONNodeFactory Tree class
+ * 3. JsonGenerator class
+ */
+
+Converting a Staff(POJO) object to JSON.
+=========================================
+ObjectMapper mapper=new ObjectMapper();
+
+// Java object to JSON file
+mapper.writeValue(new File("path\staff.json"), new Staff));
+
+// Java object to JSON string
+String jstring=mapper.writeValueAsString(object);
+
+Converting JSON to Java Objects.
+==========================================
+ObjectMapper mapper=new ObjectMapper();
+
+// JSON file to Java object
+Staff obj=mapper.readvalue(new File("path\staff.json"), Staff.class);
+
+// JSON String to java object
+Staff obj=mapper.readValue("{'name' : 'chakra' }", Staff.class);
+
+
+}

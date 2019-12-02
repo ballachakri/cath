@@ -1,379 +1,72 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/java/resources/DataBaseTest.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/java/resources/api/ShouldBeAbleToAddNewCustomer.feature");
 formatter.feature({
-  "name": "Search for the countries",
-  "description": "",
-  "keyword": "Feature"
-});
-formatter.scenario({
-  "name": "Search for countries in given continent",
-  "description": "",
-  "keyword": "Scenario"
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I have a database",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "CountryDataBaseTestStepDefs.i_have_a_database()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I enter the continent name \"Asia\"",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "CountryDataBaseTestStepDefs.i_enter_the_continent_name(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I should view the countries in the continent",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "CountryDataBaseTestStepDefs.i_should_view_the_countries_in_the_continent()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.uri("file:src/test/java/resources/LinkValidations.feature");
-formatter.feature({
-  "name": "All Home page Links validation",
+  "name": "Should be able to add new customer",
   "description": "",
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@links"
+      "name": "@addCustomer"
     }
   ]
 });
 formatter.scenario({
-  "name": "Links validations",
+  "name": "add new customer",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@links"
+      "name": "@addCustomer"
     }
   ]
 });
-formatter.before({
-  "status": "passed"
-});
 formatter.step({
-  "name": "I am on the HOME Page",
+  "name": "The customer details End point is Ready",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "MenuMenuValidationsStepDefs.i_am_on_the_HOME_Page()"
+  "location": "AddCustomerAPTStepDefs.the_customer_details_End_point_is_Ready()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "The home page is loaded",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "LinksValidation.the_home_page_is_loaded()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I should be able view all the links",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "LinksValidation.i_should_be_able_view_all_the_links()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.uri("file:src/test/java/resources/ShouldBeAbleToSearchProduct.feature");
-formatter.feature({
-  "name": "Search a Product",
-  "description": "    As a end user\n    I will search for a product\n    I should be able view all the relevant products",
-  "keyword": "Feature",
-  "tags": [
-    {
-      "name": "@smoke"
-    },
-    {
-      "name": "@sanity"
-    },
-    {
-      "name": "@regression"
-    }
-  ]
-});
-formatter.scenarioOutline({
-  "name": "User should be able to search a Product",
-  "description": "",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "name": "I am on the home page",
-  "keyword": "Given "
-});
-formatter.step({
-  "name": "I search for a product \"\u003cproduct\u003e\"",
-  "keyword": "When "
-});
-formatter.step({
-  "name": "I should view all the relevant products",
-  "keyword": "Then "
-});
-formatter.examples({
-  "name": "",
-  "description": "",
-  "keyword": "Examples",
+  "name": "I enter following customer details",
   "rows": [
     {
       "cells": [
-        "product"
+        "fname",
+        "lname",
+        "uname",
+        "password",
+        "email"
       ]
     },
     {
       "cells": [
-        "shirt"
-      ]
-    },
-    {
-      "cells": [
-        "bag"
-      ]
-    },
-    {
-      "cells": [
-        "shoe"
-      ]
-    },
-    {
-      "cells": [
-        "skirt"
+        "Ram",
+        "Krishna",
+        "rkrishna",
+        "abc12345",
+        "rk@gmail.com"
       ]
     }
-  ]
-});
-formatter.scenario({
-  "name": "User should be able to search a Product",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@smoke"
-    },
-    {
-      "name": "@sanity"
-    },
-    {
-      "name": "@regression"
-    }
-  ]
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I am on the home page",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "ShouldBeAbleToSearchProductStepDefs.i_am_on_the_home_page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I search for a product \"shirt\"",
+  ],
   "keyword": "When "
 });
 formatter.match({
-  "location": "ShouldBeAbleToSearchProductStepDefs.i_search_for_a_product(String)"
+  "location": "AddCustomerAPTStepDefs.i_enter_following_customer_details(DataTable)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I should view all the relevant products",
+  "name": "I should view success response code with message",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "ShouldBeAbleToSearchProductStepDefs.i_should_view_all_the_relevant_products()"
+  "location": "AddCustomerAPTStepDefs.i_should_view_success_response_code_with_message()"
 });
 formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "User should be able to search a Product",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@smoke"
-    },
-    {
-      "name": "@sanity"
-    },
-    {
-      "name": "@regression"
-    }
-  ]
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I am on the home page",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "ShouldBeAbleToSearchProductStepDefs.i_am_on_the_home_page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I search for a product \"bag\"",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "ShouldBeAbleToSearchProductStepDefs.i_search_for_a_product(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I should view all the relevant products",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "ShouldBeAbleToSearchProductStepDefs.i_should_view_all_the_relevant_products()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "User should be able to search a Product",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@smoke"
-    },
-    {
-      "name": "@sanity"
-    },
-    {
-      "name": "@regression"
-    }
-  ]
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I am on the home page",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "ShouldBeAbleToSearchProductStepDefs.i_am_on_the_home_page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I search for a product \"shoe\"",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "ShouldBeAbleToSearchProductStepDefs.i_search_for_a_product(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I should view all the relevant products",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "ShouldBeAbleToSearchProductStepDefs.i_should_view_all_the_relevant_products()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "User should be able to search a Product",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@smoke"
-    },
-    {
-      "name": "@sanity"
-    },
-    {
-      "name": "@regression"
-    }
-  ]
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I am on the home page",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "ShouldBeAbleToSearchProductStepDefs.i_am_on_the_home_page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I search for a product \"skirt\"",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "ShouldBeAbleToSearchProductStepDefs.i_search_for_a_product(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I should view all the relevant products",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "ShouldBeAbleToSearchProductStepDefs.i_should_view_all_the_relevant_products()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
   "status": "passed"
 });
 });

@@ -1,13 +1,10 @@
-package stepDefs;
+package stepDefs.ui;
 
-import com.Menu.MainMenuConstants;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.hamcrest.Matchers;
 import pageobjects.HomePage;
-import com.Menu.MainMenu;
-import pageobjects.Students;
+import utils.Menu.MainMenu;
 
 import static org.hamcrest.CoreMatchers.containsString;
 import static org.hamcrest.MatcherAssert.assertThat;

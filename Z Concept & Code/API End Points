@@ -1,0 +1,15 @@
+REST Assured
+> REST Assured is a Java package for testing REST APIs.
+> REST Assured provides a fluent syntax (and not a DSL) for writing service calls directly in Java code.
+> The fluent syntax is based on Gherkin:
+    > given() a request spec is created,
+    > when() the call is made,
+    > then() verify the response.
+Although REST Assured is not a full testing framework, it nevertheless pulls inspiration from BDD frameworks for order and structure.
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+End points:
+
+http://restapi.demoqa.com/utilities/weather/city/
+
+parameter for GET request "Hyderabad"

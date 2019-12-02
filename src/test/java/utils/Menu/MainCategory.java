@@ -1,4 +1,4 @@
-package com.Menu;
+package utils.Menu;
 
 import configurationsbase.BaseUIPageObject;
 import org.openqa.selenium.WebElement;

@@ -4,7 +4,6 @@ utils\FailedTestCases.class
 configurationsbase\Hooks.class
 configurationsbase\BaseUIPageObject.class
 pageobjects\GiftCards.class
-com\automationtests\apiTest\JacksonAPIs.class
 pageobjects\HomePage.class
 utils\GenerateRandomNumber.class
 com\Menu\MainMenu.class

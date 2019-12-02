@@ -1,4 +1,4 @@
-
+@dbb
 Feature: Search for the countries
     
 Scenario: Search for countries in given continent
