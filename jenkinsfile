@@ -1,11 +1,17 @@
-Jenkinsfile (Declarative Pipeline)
-pipeline {
-    agent { docker { image 'maven:3.3.3' } }
-    stages {
-        stage('build') {
-            steps {
-                sh 'mvn --version'
-            }
-        }
+node{
+    stage("pull the code"){
+        echo "pulling the code from git ........"
+    }
+    stage("compile the code"){
+        echo "mvn clean install .........."
+    }
+    stage("build"){
+        echo "build ........"
+    }
+    stage( "integration test" ){
+        echo(" integration test ..........")
+    }
+    stage ("deploy"){
+        echo("deploy the artifacts......")
     }
 }
