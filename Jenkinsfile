@@ -32,6 +32,7 @@ pipeline {
                               steps {
                                     echo "Docker Image"
                                     }
+                            }
                               steps {
                                 echo "Running the integration test..."
                               }
