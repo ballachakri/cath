@@ -3,23 +3,23 @@ pipeline {
          stages {
                  stage('One') {
                  steps {
-                     echo 'Hi, this is Zulaikha from edureka'
+                     echo 'This is stage one running ....................'
                  }
                  }
                  stage('Two') {
                  steps {
-                    input('Do you want to proceed?')
+                    echo 'This is stage two running .....................')
                  }
                  }
                  stage('Three') {
-                 when {
-                       not {
-                            branch "master"
-                       }
-                 }
                  steps {
-                       echo "Hello"
+                    echo 'This is stage three running .....................')
                  }
                  }
+                 stage('Four') {
+                 steps {
+                    echo 'This is stage four running .....................')
+                 }
+                 }         
          }
 }
