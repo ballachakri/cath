@@ -5,7 +5,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = { "src/test" },
-        tags = {"@addCustomer"},
+        tags = {"@search"},
         monochrome = true,
         plugin = {"html:src/test/reports",
                   "json:src/test/reports/cath.json",

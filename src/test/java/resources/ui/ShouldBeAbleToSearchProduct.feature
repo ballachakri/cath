@@ -1,4 +1,4 @@
-@smoke @sanity @regression
+@search @smoke @sanity @regression
 Feature: Search a Product
     As a end user
     I will search for a product
@@ -12,9 +12,9 @@ Scenario Outline: User should be able to search a Product
     Examples:
     |product|
     | shirt |
-    | bag |
-    | shoe |
-    | skirt |
+#    | bag |
+#    | shoe |
+#    | skirt |
 
 
 

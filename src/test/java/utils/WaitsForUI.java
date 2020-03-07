@@ -1,5 +1,6 @@
 package utils;
 
+import com.fasterxml.jackson.databind.ObjectReader;
 import configurationsbase.BaseUIPageObject;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
@@ -14,9 +15,9 @@ import java.util.concurrent.TimeUnit;
  */
 public class WaitsForUI extends BaseUIPageObject {
 
-    public WaitsForUI() {
-        PageFactory.initElements(driver, this);
-    }
+//    //public WaitsForUI() {
+//        PageFactory.initElements(driver, this);
+//    }
 
     /**
      * <p>
@@ -66,7 +67,6 @@ public class WaitsForUI extends BaseUIPageObject {
      */
     public static boolean waitFluentlyUntilVisibility(WebElement element) {
         boolean elementPresence = false;
-
         Wait<WebDriver> fluentWait = new FluentWait<WebDriver>(driver)
                 .withTimeout(3000, TimeUnit.MILLISECONDS)
                 .pollingEvery(500, TimeUnit.MILLISECONDS)
@@ -78,8 +78,30 @@ public class WaitsForUI extends BaseUIPageObject {
             elementPresence = true;
         }
         return elementPresence;
+    }
 
+    public static void waitFluentlyUntilVisibilityAndClick(WebElement element) {
 
+        Wait<WebDriver> fluentWait = new FluentWait<WebDriver>(driver)
+                .withTimeout(5000, TimeUnit.MILLISECONDS)
+                .pollingEvery(100, TimeUnit.MILLISECONDS)
+                .ignoring(NoSuchElementException.class);
+        fluentWait.until(ExpectedConditions.visibilityOf(element));
+
+        if (element.isDisplayed()) {
+            element.click();
+        }else {
+            System.out.println("No such element Found");
+        }
+
+    }
+
+    public static void waitForPageLoad(){
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
 }

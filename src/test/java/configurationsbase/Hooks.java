@@ -20,7 +20,7 @@ public class Hooks extends BaseUIPageObject {
 
     static Logger log= getLogger(Hooks.class);
 
-  //  @Before
+    @Before
     public void setUpHomePage()  {
 
         /** Configure Basic configuration for logging  */
@@ -38,7 +38,7 @@ public class Hooks extends BaseUIPageObject {
     }
 
 
-  //  @After
+    //@After
     public void tearDown(Scenario scenario) {
         String name=scenario.getName();
         if(scenario.isFailed()) {

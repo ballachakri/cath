@@ -2,38 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0676d69d-37db-4314-8edf-9d8d45876ca7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefs/api/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Grid Execution commands" beforeDir="false" afterPath="$PROJECT_DIR$/Z Concept &amp; Code/Grid Execution commands" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jackson Api Concept" beforeDir="false" afterPath="$PROJECT_DIR$/Z Concept &amp; Code/Jackson Api Concept" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commandLine_Execution" beforeDir="false" afterPath="$PROJECT_DIR$/Z Concept &amp; Code/commandLine_Execution" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Log4jLogs/application.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Log4jLogs/application.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Log4jLogs/testlog.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Log4jLogs/testlog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Log4jLogs/testlog1.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Log4jLogs/testlog1.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Menu/CategoryConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Menu/CategoryConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Menu/MainCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Menu/MainCategory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Menu/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Menu/MainMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Menu/MainMenuConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Menu/MainMenuConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Menu/SubCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Menu/SubCategory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automationtests/dbTest/CountryDataBaseTestStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefs/database/CountryDataBaseTestStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/configurationsbase/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/configurationsbase/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/DataBaseTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/database/DataBaseTest.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/LinkValidations.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/ui/LinkValidations.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/MenuValidation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/ui/MenuValidation.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/ShouldBeAbleToSearchProduct.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/ui/ShouldBeAbleToSearchProduct.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefs/LinksValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefs/ui/LinksValidation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefs/MenuMenuValidationsStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefs/ui/MenuMenuValidationsStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefs/ShouldBeAbleToSearchProductStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefs/ui/ShouldBeAbleToSearchProductStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/reports/cath.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/reports/cath.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/reports/failedTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/reports/failedTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/reports/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestRunner.class" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +21,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -61,12 +32,18 @@
   </component>
   <component name="ProjectId" id="1TYyY7oD8v7PvtBfleIcbWcXo5U" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/mysql-connector-java-5.12/mysql-connector-java-5.1.42/mysql-connector-java-5.1.42-bin.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -91,60 +68,9 @@
       <recent name="C:\Users\sball\git\cath\src\test\java\com\automationtests" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="JUnit.TestRunner">
-    <configuration name="File1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Important_Java_Topics.IO_Files_Reader_Stream.File1" />
-      <module name="cath" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Important_Java_Topics.IO_Files_Reader_Stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IOFiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Important_Java_Topics.IOFiles" />
-      <module name="cath" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Important_Java_Topics.Singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Important_Java_Topics.Singleton.Main" />
-      <module name="cath" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Important_Java_Topics.Singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProcessSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Important_Java_Topics.ProcessSample" />
       <module name="cath" />
       <extension name="coverage">
         <pattern>
@@ -165,13 +91,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.TestRunner" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.File1" />
-        <item itemvalue="Application.ProcessSample" />
-        <item itemvalue="Application.IOFiles" />
       </list>
     </recent_temporary>
   </component>
@@ -186,6 +113,14 @@
       <option name="presentableId" value="Default" />
       <updated>1573651367699</updated>
     </task>
+    <task id="LOCAL-00001" summary="&quot;added fluent wait for Ajax calls&quot;">
+      <created>1583601846079</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583601846079</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -200,5 +135,75 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;added fluent wait for Ajax calls&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;added fluent wait for Ajax calls&quot;" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="74" key="#Notifications" timestamp="1583599743762">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1583599743762" />
+    <state x="234" y="141" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583575167256">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="234" y="141" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1583575167256" />
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1583578592758">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1583578592758" />
+    <state x="436" y="11" key="CommitChangelistDialog2" timestamp="1583601842048">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="436" y="11" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1583601842048" />
+    <state width="1493" height="72" key="GridCell.Tab.0.bottom" timestamp="1583602242117">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="72" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583602242117" />
+    <state width="1493" height="72" key="GridCell.Tab.0.center" timestamp="1583602242117">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="72" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583602242117" />
+    <state width="1493" height="72" key="GridCell.Tab.0.left" timestamp="1583602242117">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="72" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583602242117" />
+    <state width="1493" height="72" key="GridCell.Tab.0.right" timestamp="1583602242117">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="72" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583602242117" />
+    <state width="1493" height="107" key="GridCell.Tab.1.bottom" timestamp="1583580774971">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="107" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583580774971" />
+    <state width="1493" height="107" key="GridCell.Tab.1.center" timestamp="1583580774971">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="107" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1583580774971" />
+    <state width="1493" height="107" key="GridCell.Tab.1.left" timestamp="1583580774971">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="107" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1583580774971" />
+    <state width="1493" height="107" key="GridCell.Tab.1.right" timestamp="1583580774971">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="107" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1583580774971" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1583602114481">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1583602114481" />
+    <state x="477" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1583600001162">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="477" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583600001162" />
+    <state x="307" y="151" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1583580550321">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="307" y="151" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1583580550321" />
+    <state x="509" y="216" key="git4idea.merge.GitPullDialog" timestamp="1583582958604">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="509" y="216" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1583582958604" />
   </component>
 </project>

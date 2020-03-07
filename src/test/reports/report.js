@@ -1,70 +1,105 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/java/resources/api/ShouldBeAbleToAddNewCustomer.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/java/resources/ui/ShouldBeAbleToSearchProduct.feature");
 formatter.feature({
-  "name": "Should be able to add new customer",
-  "description": "",
+  "name": "Search a Product",
+  "description": "    As a end user\n    I will search for a product\n    I should be able view all the relevant products",
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@addCustomer"
+      "name": "@search"
+    },
+    {
+      "name": "@smoke"
+    },
+    {
+      "name": "@sanity"
+    },
+    {
+      "name": "@regression"
     }
   ]
 });
-formatter.scenario({
-  "name": "add new customer",
+formatter.scenarioOutline({
+  "name": "User should be able to search a Product",
   "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@addCustomer"
-    }
-  ]
+  "keyword": "Scenario Outline"
 });
 formatter.step({
-  "name": "The customer details End point is Ready",
+  "name": "I am on the home page",
   "keyword": "Given "
 });
-formatter.match({
-  "location": "AddCustomerAPTStepDefs.the_customer_details_End_point_is_Ready()"
-});
-formatter.result({
-  "status": "passed"
+formatter.step({
+  "name": "I search for a product \"\u003cproduct\u003e\"",
+  "keyword": "When "
 });
 formatter.step({
-  "name": "I enter following customer details",
+  "name": "I should view all the relevant products",
+  "keyword": "Then "
+});
+formatter.examples({
+  "name": "",
+  "description": "",
+  "keyword": "Examples",
   "rows": [
     {
       "cells": [
-        "fname",
-        "lname",
-        "uname",
-        "password",
-        "email"
+        "product"
       ]
     },
     {
       "cells": [
-        "Ram",
-        "Krishna",
-        "rkrishna",
-        "abc12345",
-        "rk@gmail.com"
+        "shirt"
       ]
     }
-  ],
-  "keyword": "When "
+  ]
+});
+formatter.scenario({
+  "name": "User should be able to search a Product",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@search"
+    },
+    {
+      "name": "@smoke"
+    },
+    {
+      "name": "@sanity"
+    },
+    {
+      "name": "@regression"
+    }
+  ]
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I am on the home page",
+  "keyword": "Given "
 });
 formatter.match({
-  "location": "AddCustomerAPTStepDefs.i_enter_following_customer_details(DataTable)"
+  "location": "ShouldBeAbleToSearchProductStepDefs.i_am_on_the_home_page()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I should view success response code with message",
+  "name": "I search for a product \"shirt\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "ShouldBeAbleToSearchProductStepDefs.i_search_for_a_product(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should view all the relevant products",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AddCustomerAPTStepDefs.i_should_view_success_response_code_with_message()"
+  "location": "ShouldBeAbleToSearchProductStepDefs.i_should_view_all_the_relevant_products()"
 });
 formatter.result({
   "status": "passed"

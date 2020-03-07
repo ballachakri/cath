@@ -2,8 +2,10 @@ package pageobjects;
 
 import configurationsbase.BaseUIPageObject;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
 import java.io.BufferedWriter;
@@ -14,6 +16,7 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.*;
+import java.util.logging.Logger;
 
 
 /**
@@ -29,13 +32,10 @@ public class HomePage extends BaseUIPageObject {
     @FindBy(css = "div[class='cookie_policy_x']")
     private WebElement xCookies;
 
-    @FindBy(css = "input[id='top_search']")
+    @FindBy(css = "input[name='q']")
     private WebElement searchTextField;
 
-    @FindBy(css = "#search > fieldset > div > button")
-    private WebElement magnifyingGlassIcon;
-
-    @FindBy(css = "p[class='page_summary'] span:nth-child(1)")
+    @FindBy(css = "h2[class='b-search_count-title']")
     private WebElement searchResultsTitle;
 
     @FindBy(css = "a[href]")
@@ -46,15 +46,12 @@ public class HomePage extends BaseUIPageObject {
      * Then setup the Home Page
      */
     public void openHomePage() {
-        disableNotification();
-        killCookies();
-
+//        disableNotification();
+//        killCookies();
     }
 
     /**
-     * <p>
      * This method clicks cancel notifications button.
-     * </p>
      */
     private void disableNotification() {
 
@@ -63,9 +60,7 @@ public class HomePage extends BaseUIPageObject {
     }
 
     /**
-     * <p>
      * This method clicks cookies x icon.
-     * </p>
      */
     private void killCookies() {
 
@@ -79,43 +74,27 @@ public class HomePage extends BaseUIPageObject {
      * This method enters product name into search Test field and clicks Enter.
      * </p>
      */
-    public HomePage searchProduct(final String product) {
+    public void searchProduct(final String product) {
 
+        utils.WaitsForUI.waitUntilVisibility(searchTextField);
         searchTextField.sendKeys(product);
-        //or
-        // searchTextField.sendKeys(product, Keys.ENTER);
-        return this;
-    }
-
-    /**
-     * <p>
-     * This method clicks search icon.
-     * </p>
-     */
-    public HomePage clickMagnifyingGlassIcon() {
+//        utils.WaitsForUI.waitForPageLoad();
+        utils.WaitsForUI.waitFluentlyUntilVisibilityAndClick(searchTextField);
         searchTextField.sendKeys(Keys.ENTER);
-        //new Actions(driver).click(magnifyingGlassIcon).click().build().perform();
-        return this;
+
     }
 
     /**
-     * <p>
      * This method returns the search result text.
-     * </p>
-     *
-     * @return
      */
     public String getSearchResultTitle() {
         utils.WaitsForUI.waitUntilVisibility(searchResultsTitle);
-        return searchResultsTitle.getText();
+        String[] result = searchResultsTitle.getText().split("'");
+        return result[1];
     }
 
     /**
-     * <p>
      * This method returns current page title
-     * </p>
-     *
-     * @return
      */
     public String getTheCurrentURL() {
         System.out.println(driver.getCurrentUrl());
@@ -123,14 +102,12 @@ public class HomePage extends BaseUIPageObject {
     }
 
     /**
-     * <p>
      * This methods check for all the links on the home page and return the response dode.
-     * </p>
      */
     public Map<Integer, String> getResponseCode() throws IOException {
         Map<Integer, String> responseCode = new HashMap<Integer, String>();
 
-        BufferedWriter bw= new BufferedWriter(new FileWriter("src/test/zfiles/links.txt"));
+        BufferedWriter bw = new BufferedWriter(new FileWriter("src/test/zfiles/links.txt"));
         for (WebElement list : allLinks) {
             try {
                 URL url = new URL(list.getAttribute("href"));
@@ -140,7 +117,7 @@ public class HomePage extends BaseUIPageObject {
 
                 if (hcon.getResponseCode() == 200) {
                     System.out.println(list.getAttribute("href") + " :  " + hcon.getResponseCode() + " : " + hcon.getResponseMessage());
-                    String str=list.getAttribute("href") + " :  " + hcon.getResponseCode() + " : " + hcon.getResponseMessage();
+                    String str = list.getAttribute("href") + " :  " + hcon.getResponseCode() + " : " + hcon.getResponseMessage();
                     bw.write(str);
                     bw.newLine();
                     responseCode.put(hcon.getResponseCode(), hcon.getResponseMessage());
@@ -148,7 +125,7 @@ public class HomePage extends BaseUIPageObject {
                 if (hcon.getResponseCode() == hcon.HTTP_NOT_FOUND) {
                     System.out.println(list.getAttribute("href") + " :  " + hcon.getResponseCode() + " : " + hcon.getResponseMessage());
                 }
-           //  bw.flush();
+                //  bw.flush();
             } catch (MalformedURLException e) {
                 e.printStackTrace();
             } catch (IOException e) {
